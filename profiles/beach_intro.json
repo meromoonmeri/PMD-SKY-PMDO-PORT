@@ -1,0 +1,9 @@
+{
+  "name": "beach_intro",
+  "sir0_container": "b01p01.sir0",
+  "ground": "b01p01.rlsn",
+  "tileset": "b01p01.rlts",
+  "palette": "b01p01.rlcn",
+  "cinematic": "m01a0103.ssb",
+  "output_base": "b01p01_beach"
+}

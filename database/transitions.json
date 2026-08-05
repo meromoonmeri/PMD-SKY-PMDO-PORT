@@ -1,0 +1,50 @@
+[
+  {
+    "from": {
+      "ground": "t01p01a",
+      "position": "trigger"
+    },
+    "to": {
+      "ground": "t01p02a",
+      "position": "spawn_0"
+    },
+    "condition": "town_east_exit",
+    "type": "warp"
+  },
+  {
+    "from": {
+      "ground": "t01p02a",
+      "position": "trigger"
+    },
+    "to": {
+      "ground": "d01p11a",
+      "position": "spawn_0"
+    },
+    "condition": "crossroads_south",
+    "type": "warp"
+  },
+  {
+    "from": {
+      "ground": "t01p02a",
+      "position": "trigger"
+    },
+    "to": {
+      "ground": "t01p03a",
+      "position": "spawn_0"
+    },
+    "condition": "crossroads_west",
+    "type": "warp"
+  },
+  {
+    "from": {
+      "ground": "t01p03a",
+      "position": "trigger"
+    },
+    "to": {
+      "ground": "t01p04a",
+      "position": "spawn_0"
+    },
+    "condition": "guild_ladder_down",
+    "type": "warp"
+  }
+]

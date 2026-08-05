@@ -1,0 +1,21 @@
+{
+  "mappings": {
+    "engine": {
+      "source": "NDS_Sir0_RLSN",
+      "target": "PMDO_GroundMap"
+    },
+    "geometry": {
+      "tile_layer": "RogueEssence.Ground.GroundMap.Layers",
+      "collision": "RogueEssence.Ground.GroundMap.obstacles"
+    },
+    "entities": {
+      "npc_spawn": "RogueEssence.Ground.GroundSpawner",
+      "player_spawn": "Main_Entrance_Marker",
+      "cutscene_anchor": "Cutscene_Marker"
+    },
+    "events": {
+      "event_trigger": "GAME:Script",
+      "warp": "GroundObject (Hitbox_Trigger)"
+    }
+  }
+}

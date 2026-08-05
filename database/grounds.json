@@ -1,0 +1,2593 @@
+{
+  "v39p03a": {
+    "id": "v39p03a",
+    "name": "V39P03A",
+    "type": "unknown",
+    "source": "files/GROUND/v39p03a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V39P03A",
+    "connections": []
+  },
+  "v39p02a": {
+    "id": "v39p02a",
+    "name": "V39P02A",
+    "type": "unknown",
+    "source": "files/GROUND/v39p02a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V39P02A",
+    "connections": []
+  },
+  "v38p11a": {
+    "id": "v38p11a",
+    "name": "V38P11A",
+    "type": "unknown",
+    "source": "files/GROUND/v38p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V38P11A",
+    "connections": []
+  },
+  "v38p10a": {
+    "id": "v38p10a",
+    "name": "V38P10A",
+    "type": "unknown",
+    "source": "files/GROUND/v38p10a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V38P10A",
+    "connections": []
+  },
+  "v38p08a": {
+    "id": "v38p08a",
+    "name": "V38P08A",
+    "type": "unknown",
+    "source": "files/GROUND/v38p08a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V38P08A",
+    "connections": []
+  },
+  "v38p07a": {
+    "id": "v38p07a",
+    "name": "V38P07A",
+    "type": "unknown",
+    "source": "files/GROUND/v38p07a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V38P07A",
+    "connections": []
+  },
+  "v38p03a": {
+    "id": "v38p03a",
+    "name": "V38P03A",
+    "type": "unknown",
+    "source": "files/GROUND/v38p03a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V38P03A",
+    "connections": []
+  },
+  "v38p02a": {
+    "id": "v38p02a",
+    "name": "V38P02A",
+    "type": "unknown",
+    "source": "files/GROUND/v38p02a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V38P02A",
+    "connections": []
+  },
+  "v38p01a": {
+    "id": "v38p01a",
+    "name": "V38P01A",
+    "type": "unknown",
+    "source": "files/GROUND/v38p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V38P01A",
+    "connections": []
+  },
+  "v37p03a": {
+    "id": "v37p03a",
+    "name": "V37P03A",
+    "type": "unknown",
+    "source": "files/GROUND/v37p03a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V37P03A",
+    "connections": []
+  },
+  "v37p02a": {
+    "id": "v37p02a",
+    "name": "V37P02A",
+    "type": "unknown",
+    "source": "files/GROUND/v37p02a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V37P02A",
+    "connections": []
+  },
+  "v37p01a": {
+    "id": "v37p01a",
+    "name": "V37P01A",
+    "type": "unknown",
+    "source": "files/GROUND/v37p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V37P01A",
+    "connections": []
+  },
+  "v32p01a": {
+    "id": "v32p01a",
+    "name": "V32P01A",
+    "type": "unknown",
+    "source": "files/GROUND/v32p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V32P01A",
+    "connections": []
+  },
+  "v26p11a": {
+    "id": "v26p11a",
+    "name": "V26P11A",
+    "type": "unknown",
+    "source": "files/GROUND/v26p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V26P11A",
+    "connections": []
+  },
+  "v26p10a": {
+    "id": "v26p10a",
+    "name": "V26P10A",
+    "type": "unknown",
+    "source": "files/GROUND/v26p10a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V26P10A",
+    "connections": []
+  },
+  "v26p09a": {
+    "id": "v26p09a",
+    "name": "V26P09A",
+    "type": "unknown",
+    "source": "files/GROUND/v26p09a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V26P09A",
+    "connections": []
+  },
+  "v26p07a": {
+    "id": "v26p07a",
+    "name": "V26P07A",
+    "type": "unknown",
+    "source": "files/GROUND/v26p07a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V26P07A",
+    "connections": []
+  },
+  "v26p05a": {
+    "id": "v26p05a",
+    "name": "V26P05A",
+    "type": "unknown",
+    "source": "files/GROUND/v26p05a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V26P05A",
+    "connections": []
+  },
+  "v26p03a": {
+    "id": "v26p03a",
+    "name": "V26P03A",
+    "type": "unknown",
+    "source": "files/GROUND/v26p03a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V26P03A",
+    "connections": []
+  },
+  "v26p02a": {
+    "id": "v26p02a",
+    "name": "V26P02A",
+    "type": "unknown",
+    "source": "files/GROUND/v26p02a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V26P02A",
+    "connections": []
+  },
+  "v26p01a": {
+    "id": "v26p01a",
+    "name": "V26P01A",
+    "type": "unknown",
+    "source": "files/GROUND/v26p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V26P01A",
+    "connections": []
+  },
+  "v24p09a": {
+    "id": "v24p09a",
+    "name": "V24P09A",
+    "type": "unknown",
+    "source": "files/GROUND/v24p09a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V24P09A",
+    "connections": []
+  },
+  "v24p06a": {
+    "id": "v24p06a",
+    "name": "V24P06A",
+    "type": "unknown",
+    "source": "files/GROUND/v24p06a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V24P06A",
+    "connections": []
+  },
+  "v24p05a": {
+    "id": "v24p05a",
+    "name": "V24P05A",
+    "type": "unknown",
+    "source": "files/GROUND/v24p05a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V24P05A",
+    "connections": []
+  },
+  "v24p04a": {
+    "id": "v24p04a",
+    "name": "V24P04A",
+    "type": "unknown",
+    "source": "files/GROUND/v24p04a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V24P04A",
+    "connections": []
+  },
+  "v24p03a": {
+    "id": "v24p03a",
+    "name": "V24P03A",
+    "type": "unknown",
+    "source": "files/GROUND/v24p03a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V24P03A",
+    "connections": []
+  },
+  "v24p02a": {
+    "id": "v24p02a",
+    "name": "V24P02A",
+    "type": "unknown",
+    "source": "files/GROUND/v24p02a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V24P02A",
+    "connections": []
+  },
+  "v24p01a": {
+    "id": "v24p01a",
+    "name": "V24P01A",
+    "type": "unknown",
+    "source": "files/GROUND/v24p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V24P01A",
+    "connections": []
+  },
+  "v23p04a": {
+    "id": "v23p04a",
+    "name": "V23P04A",
+    "type": "unknown",
+    "source": "files/GROUND/v23p04a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V23P04A",
+    "connections": []
+  },
+  "v23p01a": {
+    "id": "v23p01a",
+    "name": "V23P01A",
+    "type": "unknown",
+    "source": "files/GROUND/v23p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V23P01A",
+    "connections": []
+  },
+  "v22p03a": {
+    "id": "v22p03a",
+    "name": "V22P03A",
+    "type": "unknown",
+    "source": "files/GROUND/v22p03a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V22P03A",
+    "connections": []
+  },
+  "v21p01a": {
+    "id": "v21p01a",
+    "name": "V21P01A",
+    "type": "unknown",
+    "source": "files/GROUND/v21p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V21P01A",
+    "connections": []
+  },
+  "v19p06a": {
+    "id": "v19p06a",
+    "name": "V19P06A",
+    "type": "unknown",
+    "source": "files/GROUND/v19p06a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V19P06A",
+    "connections": []
+  },
+  "v17p03a": {
+    "id": "v17p03a",
+    "name": "V17P03A",
+    "type": "unknown",
+    "source": "files/GROUND/v17p03a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V17P03A",
+    "connections": []
+  },
+  "v17p02a": {
+    "id": "v17p02a",
+    "name": "V17P02A",
+    "type": "unknown",
+    "source": "files/GROUND/v17p02a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V17P02A",
+    "connections": []
+  },
+  "v16p02a": {
+    "id": "v16p02a",
+    "name": "V16P02A",
+    "type": "unknown",
+    "source": "files/GROUND/v16p02a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V16P02A",
+    "connections": []
+  },
+  "v15p03a": {
+    "id": "v15p03a",
+    "name": "V15P03A",
+    "type": "unknown",
+    "source": "files/GROUND/v15p03a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V15P03A",
+    "connections": []
+  },
+  "v15p02a": {
+    "id": "v15p02a",
+    "name": "V15P02A",
+    "type": "unknown",
+    "source": "files/GROUND/v15p02a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V15P02A",
+    "connections": []
+  },
+  "v15p01a": {
+    "id": "v15p01a",
+    "name": "V15P01A",
+    "type": "unknown",
+    "source": "files/GROUND/v15p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V15P01A",
+    "connections": []
+  },
+  "v14p04a": {
+    "id": "v14p04a",
+    "name": "V14P04A",
+    "type": "unknown",
+    "source": "files/GROUND/v14p04a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V14P04A",
+    "connections": []
+  },
+  "v14p03a": {
+    "id": "v14p03a",
+    "name": "V14P03A",
+    "type": "unknown",
+    "source": "files/GROUND/v14p03a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V14P03A",
+    "connections": []
+  },
+  "v10p03c": {
+    "id": "v10p03c",
+    "name": "V10P03C",
+    "type": "unknown",
+    "source": "files/GROUND/v10p03c.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V10P03C",
+    "connections": []
+  },
+  "v10p01c": {
+    "id": "v10p01c",
+    "name": "V10P01C",
+    "type": "unknown",
+    "source": "files/GROUND/v10p01c.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V10P01C",
+    "connections": []
+  },
+  "v09p04a": {
+    "id": "v09p04a",
+    "name": "V09P04A",
+    "type": "unknown",
+    "source": "files/GROUND/v09p04a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V09P04A",
+    "connections": []
+  },
+  "v05p03a": {
+    "id": "v05p03a",
+    "name": "V05P03A",
+    "type": "unknown",
+    "source": "files/GROUND/v05p03a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V05P03A",
+    "connections": []
+  },
+  "v05p02a": {
+    "id": "v05p02a",
+    "name": "V05P02A",
+    "type": "unknown",
+    "source": "files/GROUND/v05p02a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V05P02A",
+    "connections": []
+  },
+  "v05p01a": {
+    "id": "v05p01a",
+    "name": "V05P01A",
+    "type": "unknown",
+    "source": "files/GROUND/v05p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V05P01A",
+    "connections": []
+  },
+  "v04p01a": {
+    "id": "v04p01a",
+    "name": "V04P01A",
+    "type": "unknown",
+    "source": "files/GROUND/v04p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V04P01A",
+    "connections": []
+  },
+  "v03p12a": {
+    "id": "v03p12a",
+    "name": "V03P12A",
+    "type": "unknown",
+    "source": "files/GROUND/v03p12a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V03P12A",
+    "connections": []
+  },
+  "v03p11a": {
+    "id": "v03p11a",
+    "name": "V03P11A",
+    "type": "unknown",
+    "source": "files/GROUND/v03p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V03P11A",
+    "connections": []
+  },
+  "v03p09a": {
+    "id": "v03p09a",
+    "name": "V03P09A",
+    "type": "unknown",
+    "source": "files/GROUND/v03p09a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V03P09A",
+    "connections": []
+  },
+  "v03p08a": {
+    "id": "v03p08a",
+    "name": "V03P08A",
+    "type": "unknown",
+    "source": "files/GROUND/v03p08a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V03P08A",
+    "connections": []
+  },
+  "v03p07a": {
+    "id": "v03p07a",
+    "name": "V03P07A",
+    "type": "unknown",
+    "source": "files/GROUND/v03p07a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V03P07A",
+    "connections": []
+  },
+  "v03p06a": {
+    "id": "v03p06a",
+    "name": "V03P06A",
+    "type": "unknown",
+    "source": "files/GROUND/v03p06a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V03P06A",
+    "connections": []
+  },
+  "v03p05c": {
+    "id": "v03p05c",
+    "name": "V03P05C",
+    "type": "unknown",
+    "source": "files/GROUND/v03p05c.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V03P05C",
+    "connections": []
+  },
+  "v03p03a": {
+    "id": "v03p03a",
+    "name": "V03P03A",
+    "type": "unknown",
+    "source": "files/GROUND/v03p03a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V03P03A",
+    "connections": []
+  },
+  "v02p03a": {
+    "id": "v02p03a",
+    "name": "V02P03A",
+    "type": "unknown",
+    "source": "files/GROUND/v02p03a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V02P03A",
+    "connections": []
+  },
+  "v01p07b": {
+    "id": "v01p07b",
+    "name": "V01P07B",
+    "type": "unknown",
+    "source": "files/GROUND/v01p07b.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V01P07B",
+    "connections": []
+  },
+  "v01p05b": {
+    "id": "v01p05b",
+    "name": "V01P05B",
+    "type": "unknown",
+    "source": "files/GROUND/v01p05b.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V01P05B",
+    "connections": []
+  },
+  "v01p04b": {
+    "id": "v01p04b",
+    "name": "V01P04B",
+    "type": "unknown",
+    "source": "files/GROUND/v01p04b.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V01P04B",
+    "connections": []
+  },
+  "v01p01a": {
+    "id": "v01p01a",
+    "name": "V01P01A",
+    "type": "unknown",
+    "source": "files/GROUND/v01p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V01P01A",
+    "connections": []
+  },
+  "v00p03": {
+    "id": "v00p03",
+    "name": "V00P03",
+    "type": "unknown",
+    "source": "files/GROUND/v00p03.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V00P03",
+    "connections": []
+  },
+  "v00p02": {
+    "id": "v00p02",
+    "name": "V00P02",
+    "type": "unknown",
+    "source": "files/GROUND/v00p02.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V00P02",
+    "connections": []
+  },
+  "v00p01": {
+    "id": "v00p01",
+    "name": "V00P01",
+    "type": "unknown",
+    "source": "files/GROUND/v00p01.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/V00P01",
+    "connections": []
+  },
+  "t01p04a": {
+    "id": "t01p04a",
+    "name": "T01P04A",
+    "type": "town",
+    "source": "files/GROUND/t01p04a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/T01P04A",
+    "connections": []
+  },
+  "t01p03a": {
+    "id": "t01p03a",
+    "name": "T01P03A",
+    "type": "town",
+    "source": "files/GROUND/t01p03a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/T01P03A",
+    "connections": [
+      "t01p04a"
+    ]
+  },
+  "t01p02a": {
+    "id": "t01p02a",
+    "name": "T01P02A",
+    "type": "town",
+    "source": "files/GROUND/t01p02a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/T01P02A",
+    "connections": [
+      "d01p11a",
+      "t01p03a"
+    ]
+  },
+  "t01p01a": {
+    "id": "t01p01a",
+    "name": "T01P01A",
+    "type": "town",
+    "source": "files/GROUND/t01p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/T01P01A",
+    "connections": [
+      "t01p02a"
+    ]
+  },
+  "t00p03": {
+    "id": "t00p03",
+    "name": "T00P03",
+    "type": "town",
+    "source": "files/GROUND/t00p03.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/T00P03",
+    "connections": []
+  },
+  "t00p02": {
+    "id": "t00p02",
+    "name": "T00P02",
+    "type": "town",
+    "source": "files/GROUND/t00p02.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/T00P02",
+    "connections": []
+  },
+  "t00p01": {
+    "id": "t00p01",
+    "name": "T00P01",
+    "type": "town",
+    "source": "files/GROUND/t00p01.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/T00P01",
+    "connections": []
+  },
+  "s99p03a": {
+    "id": "s99p03a",
+    "name": "S99P03A",
+    "type": "event",
+    "source": "files/GROUND/s99p03a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/S99P03A",
+    "connections": []
+  },
+  "s99p01a": {
+    "id": "s99p01a",
+    "name": "S99P01A",
+    "type": "event",
+    "source": "files/GROUND/s99p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/S99P01A",
+    "connections": []
+  },
+  "s14p01a": {
+    "id": "s14p01a",
+    "name": "S14P01A",
+    "type": "event",
+    "source": "files/GROUND/s14p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/S14P01A",
+    "connections": []
+  },
+  "s13p09a": {
+    "id": "s13p09a",
+    "name": "S13P09A",
+    "type": "event",
+    "source": "files/GROUND/s13p09a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/S13P09A",
+    "connections": []
+  },
+  "s13p08a": {
+    "id": "s13p08a",
+    "name": "S13P08A",
+    "type": "event",
+    "source": "files/GROUND/s13p08a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/S13P08A",
+    "connections": []
+  },
+  "s13p06a": {
+    "id": "s13p06a",
+    "name": "S13P06A",
+    "type": "event",
+    "source": "files/GROUND/s13p06a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/S13P06A",
+    "connections": []
+  },
+  "s13p05a": {
+    "id": "s13p05a",
+    "name": "S13P05A",
+    "type": "event",
+    "source": "files/GROUND/s13p05a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/S13P05A",
+    "connections": []
+  },
+  "s13p04b": {
+    "id": "s13p04b",
+    "name": "S13P04B",
+    "type": "event",
+    "source": "files/GROUND/s13p04b.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/S13P04B",
+    "connections": []
+  },
+  "s13p03a": {
+    "id": "s13p03a",
+    "name": "S13P03A",
+    "type": "event",
+    "source": "files/GROUND/s13p03a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/S13P03A",
+    "connections": []
+  },
+  "s13p02a": {
+    "id": "s13p02a",
+    "name": "S13P02A",
+    "type": "event",
+    "source": "files/GROUND/s13p02a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/S13P02A",
+    "connections": []
+  },
+  "s11p02c": {
+    "id": "s11p02c",
+    "name": "S11P02C",
+    "type": "event",
+    "source": "files/GROUND/s11p02c.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/S11P02C",
+    "connections": []
+  },
+  "s08p01a": {
+    "id": "s08p01a",
+    "name": "S08P01A",
+    "type": "event",
+    "source": "files/GROUND/s08p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/S08P01A",
+    "connections": []
+  },
+  "s05p03a": {
+    "id": "s05p03a",
+    "name": "S05P03A",
+    "type": "event",
+    "source": "files/GROUND/s05p03a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/S05P03A",
+    "connections": []
+  },
+  "s05p01a": {
+    "id": "s05p01a",
+    "name": "S05P01A",
+    "type": "event",
+    "source": "files/GROUND/s05p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/S05P01A",
+    "connections": []
+  },
+  "s04p01a": {
+    "id": "s04p01a",
+    "name": "S04P01A",
+    "type": "event",
+    "source": "files/GROUND/s04p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/S04P01A",
+    "connections": []
+  },
+  "s02p01a": {
+    "id": "s02p01a",
+    "name": "S02P01A",
+    "type": "event",
+    "source": "files/GROUND/s02p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/S02P01A",
+    "connections": []
+  },
+  "s01p03a": {
+    "id": "s01p03a",
+    "name": "S01P03A",
+    "type": "event",
+    "source": "files/GROUND/s01p03a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/S01P03A",
+    "connections": []
+  },
+  "s01p02a": {
+    "id": "s01p02a",
+    "name": "S01P02A",
+    "type": "event",
+    "source": "files/GROUND/s01p02a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/S01P02A",
+    "connections": []
+  },
+  "s01p01a": {
+    "id": "s01p01a",
+    "name": "S01P01A",
+    "type": "event",
+    "source": "files/GROUND/s01p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/S01P01A",
+    "connections": []
+  },
+  "s00p01a": {
+    "id": "s00p01a",
+    "name": "S00P01A",
+    "type": "event",
+    "source": "files/GROUND/s00p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/S00P01A",
+    "connections": []
+  },
+  "p28p01a": {
+    "id": "p28p01a",
+    "name": "P28P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p28p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P28P01A",
+    "connections": []
+  },
+  "p27p01a": {
+    "id": "p27p01a",
+    "name": "P27P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p27p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P27P01A",
+    "connections": []
+  },
+  "p26p01a": {
+    "id": "p26p01a",
+    "name": "P26P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p26p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P26P01A",
+    "connections": []
+  },
+  "p25p01a": {
+    "id": "p25p01a",
+    "name": "P25P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p25p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P25P01A",
+    "connections": []
+  },
+  "p24p01a": {
+    "id": "p24p01a",
+    "name": "P24P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p24p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P24P01A",
+    "connections": []
+  },
+  "p23p02a": {
+    "id": "p23p02a",
+    "name": "P23P02A",
+    "type": "unknown",
+    "source": "files/GROUND/p23p02a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P23P02A",
+    "connections": []
+  },
+  "p23p01a": {
+    "id": "p23p01a",
+    "name": "P23P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p23p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P23P01A",
+    "connections": []
+  },
+  "p22p01a": {
+    "id": "p22p01a",
+    "name": "P22P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p22p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P22P01A",
+    "connections": []
+  },
+  "p21p02a": {
+    "id": "p21p02a",
+    "name": "P21P02A",
+    "type": "unknown",
+    "source": "files/GROUND/p21p02a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P21P02A",
+    "connections": []
+  },
+  "p20p03a": {
+    "id": "p20p03a",
+    "name": "P20P03A",
+    "type": "unknown",
+    "source": "files/GROUND/p20p03a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P20P03A",
+    "connections": []
+  },
+  "p20p02a": {
+    "id": "p20p02a",
+    "name": "P20P02A",
+    "type": "unknown",
+    "source": "files/GROUND/p20p02a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P20P02A",
+    "connections": []
+  },
+  "p20p01a": {
+    "id": "p20p01a",
+    "name": "P20P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p20p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P20P01A",
+    "connections": []
+  },
+  "p19p02a": {
+    "id": "p19p02a",
+    "name": "P19P02A",
+    "type": "unknown",
+    "source": "files/GROUND/p19p02a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P19P02A",
+    "connections": []
+  },
+  "p19p01a": {
+    "id": "p19p01a",
+    "name": "P19P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p19p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P19P01A",
+    "connections": []
+  },
+  "p18p01a": {
+    "id": "p18p01a",
+    "name": "P18P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p18p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P18P01A",
+    "connections": []
+  },
+  "p17p02c": {
+    "id": "p17p02c",
+    "name": "P17P02C",
+    "type": "unknown",
+    "source": "files/GROUND/p17p02c.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P17P02C",
+    "connections": []
+  },
+  "p17p02a": {
+    "id": "p17p02a",
+    "name": "P17P02A",
+    "type": "unknown",
+    "source": "files/GROUND/p17p02a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P17P02A",
+    "connections": []
+  },
+  "p17p01a": {
+    "id": "p17p01a",
+    "name": "P17P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p17p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P17P01A",
+    "connections": []
+  },
+  "p16p01a": {
+    "id": "p16p01a",
+    "name": "P16P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p16p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P16P01A",
+    "connections": []
+  },
+  "p15p01a": {
+    "id": "p15p01a",
+    "name": "P15P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p15p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P15P01A",
+    "connections": []
+  },
+  "p14p01a": {
+    "id": "p14p01a",
+    "name": "P14P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p14p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P14P01A",
+    "connections": []
+  },
+  "p13p01a": {
+    "id": "p13p01a",
+    "name": "P13P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p13p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P13P01A",
+    "connections": []
+  },
+  "p12p02a": {
+    "id": "p12p02a",
+    "name": "P12P02A",
+    "type": "unknown",
+    "source": "files/GROUND/p12p02a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P12P02A",
+    "connections": []
+  },
+  "p12p01a": {
+    "id": "p12p01a",
+    "name": "P12P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p12p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P12P01A",
+    "connections": []
+  },
+  "p11p01a": {
+    "id": "p11p01a",
+    "name": "P11P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p11p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P11P01A",
+    "connections": []
+  },
+  "p10p01a": {
+    "id": "p10p01a",
+    "name": "P10P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p10p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P10P01A",
+    "connections": []
+  },
+  "p09p01a": {
+    "id": "p09p01a",
+    "name": "P09P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p09p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P09P01A",
+    "connections": []
+  },
+  "p08p01a": {
+    "id": "p08p01a",
+    "name": "P08P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p08p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P08P01A",
+    "connections": []
+  },
+  "p07p01a": {
+    "id": "p07p01a",
+    "name": "P07P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p07p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P07P01A",
+    "connections": []
+  },
+  "p06p01a": {
+    "id": "p06p01a",
+    "name": "P06P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p06p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P06P01A",
+    "connections": []
+  },
+  "p05p04a": {
+    "id": "p05p04a",
+    "name": "P05P04A",
+    "type": "unknown",
+    "source": "files/GROUND/p05p04a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P05P04A",
+    "connections": []
+  },
+  "p05p03a": {
+    "id": "p05p03a",
+    "name": "P05P03A",
+    "type": "unknown",
+    "source": "files/GROUND/p05p03a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P05P03A",
+    "connections": []
+  },
+  "p05p02a": {
+    "id": "p05p02a",
+    "name": "P05P02A",
+    "type": "unknown",
+    "source": "files/GROUND/p05p02a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P05P02A",
+    "connections": []
+  },
+  "p05p01a": {
+    "id": "p05p01a",
+    "name": "P05P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p05p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P05P01A",
+    "connections": []
+  },
+  "p04p01c": {
+    "id": "p04p01c",
+    "name": "P04P01C",
+    "type": "unknown",
+    "source": "files/GROUND/p04p01c.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P04P01C",
+    "connections": []
+  },
+  "p03p02a": {
+    "id": "p03p02a",
+    "name": "P03P02A",
+    "type": "unknown",
+    "source": "files/GROUND/p03p02a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P03P02A",
+    "connections": []
+  },
+  "p03p01a": {
+    "id": "p03p01a",
+    "name": "P03P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p03p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P03P01A",
+    "connections": []
+  },
+  "p02p01a": {
+    "id": "p02p01a",
+    "name": "P02P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p02p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P02P01A",
+    "connections": []
+  },
+  "p01p04a": {
+    "id": "p01p04a",
+    "name": "P01P04A",
+    "type": "unknown",
+    "source": "files/GROUND/p01p04a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P01P04A",
+    "connections": []
+  },
+  "p01p02a": {
+    "id": "p01p02a",
+    "name": "P01P02A",
+    "type": "unknown",
+    "source": "files/GROUND/p01p02a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P01P02A",
+    "connections": []
+  },
+  "p01p01a": {
+    "id": "p01p01a",
+    "name": "P01P01A",
+    "type": "unknown",
+    "source": "files/GROUND/p01p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/P01P01A",
+    "connections": []
+  },
+  "h02p99c": {
+    "id": "h02p99c",
+    "name": "H02P99C",
+    "type": "unknown",
+    "source": "files/GROUND/h02p99c.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/H02P99C",
+    "connections": []
+  },
+  "h02p99a": {
+    "id": "h02p99a",
+    "name": "H02P99A",
+    "type": "unknown",
+    "source": "files/GROUND/h02p99a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/H02P99A",
+    "connections": []
+  },
+  "h01p99e": {
+    "id": "h01p99e",
+    "name": "H01P99E",
+    "type": "unknown",
+    "source": "files/GROUND/h01p99e.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/H01P99E",
+    "connections": []
+  },
+  "h01p99d": {
+    "id": "h01p99d",
+    "name": "H01P99D",
+    "type": "unknown",
+    "source": "files/GROUND/h01p99d.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/H01P99D",
+    "connections": []
+  },
+  "h01p99c": {
+    "id": "h01p99c",
+    "name": "H01P99C",
+    "type": "unknown",
+    "source": "files/GROUND/h01p99c.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/H01P99C",
+    "connections": []
+  },
+  "h01p99a": {
+    "id": "h01p99a",
+    "name": "H01P99A",
+    "type": "unknown",
+    "source": "files/GROUND/h01p99a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/H01P99A",
+    "connections": []
+  },
+  "g01p10c": {
+    "id": "g01p10c",
+    "name": "G01P10C",
+    "type": "unknown",
+    "source": "files/GROUND/g01p10c.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/G01P10C",
+    "connections": []
+  },
+  "g01p10a": {
+    "id": "g01p10a",
+    "name": "G01P10A",
+    "type": "unknown",
+    "source": "files/GROUND/g01p10a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/G01P10A",
+    "connections": []
+  },
+  "g01p09c": {
+    "id": "g01p09c",
+    "name": "G01P09C",
+    "type": "unknown",
+    "source": "files/GROUND/g01p09c.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/G01P09C",
+    "connections": []
+  },
+  "g01p09a": {
+    "id": "g01p09a",
+    "name": "G01P09A",
+    "type": "unknown",
+    "source": "files/GROUND/g01p09a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/G01P09A",
+    "connections": []
+  },
+  "g01p08a": {
+    "id": "g01p08a",
+    "name": "G01P08A",
+    "type": "unknown",
+    "source": "files/GROUND/g01p08a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/G01P08A",
+    "connections": []
+  },
+  "g01p07c": {
+    "id": "g01p07c",
+    "name": "G01P07C",
+    "type": "unknown",
+    "source": "files/GROUND/g01p07c.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/G01P07C",
+    "connections": []
+  },
+  "g01p07a": {
+    "id": "g01p07a",
+    "name": "G01P07A",
+    "type": "unknown",
+    "source": "files/GROUND/g01p07a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/G01P07A",
+    "connections": []
+  },
+  "g01p06b": {
+    "id": "g01p06b",
+    "name": "G01P06B",
+    "type": "unknown",
+    "source": "files/GROUND/g01p06b.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/G01P06B",
+    "connections": []
+  },
+  "g01p06a": {
+    "id": "g01p06a",
+    "name": "G01P06A",
+    "type": "unknown",
+    "source": "files/GROUND/g01p06a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/G01P06A",
+    "connections": []
+  },
+  "g01p05c": {
+    "id": "g01p05c",
+    "name": "G01P05C",
+    "type": "unknown",
+    "source": "files/GROUND/g01p05c.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/G01P05C",
+    "connections": []
+  },
+  "g01p05a": {
+    "id": "g01p05a",
+    "name": "G01P05A",
+    "type": "unknown",
+    "source": "files/GROUND/g01p05a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/G01P05A",
+    "connections": []
+  },
+  "g01p04c": {
+    "id": "g01p04c",
+    "name": "G01P04C",
+    "type": "unknown",
+    "source": "files/GROUND/g01p04c.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/G01P04C",
+    "connections": []
+  },
+  "g01p04a": {
+    "id": "g01p04a",
+    "name": "G01P04A",
+    "type": "unknown",
+    "source": "files/GROUND/g01p04a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/G01P04A",
+    "connections": []
+  },
+  "g01p03a": {
+    "id": "g01p03a",
+    "name": "G01P03A",
+    "type": "unknown",
+    "source": "files/GROUND/g01p03a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/G01P03A",
+    "connections": []
+  },
+  "g01p02a": {
+    "id": "g01p02a",
+    "name": "G01P02A",
+    "type": "unknown",
+    "source": "files/GROUND/g01p02a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/G01P02A",
+    "connections": []
+  },
+  "g01p01c": {
+    "id": "g01p01c",
+    "name": "G01P01C",
+    "type": "unknown",
+    "source": "files/GROUND/g01p01c.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/G01P01C",
+    "connections": []
+  },
+  "g01p01b": {
+    "id": "g01p01b",
+    "name": "G01P01B",
+    "type": "unknown",
+    "source": "files/GROUND/g01p01b.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/G01P01B",
+    "connections": []
+  },
+  "g01p01a": {
+    "id": "g01p01a",
+    "name": "G01P01A",
+    "type": "unknown",
+    "source": "files/GROUND/g01p01a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/G01P01A",
+    "connections": []
+  },
+  "d90p41a": {
+    "id": "d90p41a",
+    "name": "D90P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d90p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D90P41A",
+    "connections": []
+  },
+  "d89p41a": {
+    "id": "d89p41a",
+    "name": "D89P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d89p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D89P41A",
+    "connections": []
+  },
+  "d88p41a": {
+    "id": "d88p41a",
+    "name": "D88P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d88p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D88P41A",
+    "connections": []
+  },
+  "d87p41a": {
+    "id": "d87p41a",
+    "name": "D87P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d87p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D87P41A",
+    "connections": []
+  },
+  "d86p41a": {
+    "id": "d86p41a",
+    "name": "D86P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d86p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D86P41A",
+    "connections": []
+  },
+  "d85p41a": {
+    "id": "d85p41a",
+    "name": "D85P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d85p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D85P41A",
+    "connections": []
+  },
+  "d84p41a": {
+    "id": "d84p41a",
+    "name": "D84P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d84p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D84P41A",
+    "connections": []
+  },
+  "d83p41a": {
+    "id": "d83p41a",
+    "name": "D83P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d83p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D83P41A",
+    "connections": []
+  },
+  "d82p41a": {
+    "id": "d82p41a",
+    "name": "D82P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d82p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D82P41A",
+    "connections": []
+  },
+  "d81p41a": {
+    "id": "d81p41a",
+    "name": "D81P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d81p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D81P41A",
+    "connections": []
+  },
+  "d80p41a": {
+    "id": "d80p41a",
+    "name": "D80P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d80p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D80P41A",
+    "connections": []
+  },
+  "d79p41a": {
+    "id": "d79p41a",
+    "name": "D79P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d79p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D79P41A",
+    "connections": []
+  },
+  "d79p21a": {
+    "id": "d79p21a",
+    "name": "D79P21A",
+    "type": "dungeon_midpoint",
+    "source": "files/GROUND/d79p21a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D79P21A",
+    "connections": []
+  },
+  "d79p11a": {
+    "id": "d79p11a",
+    "name": "D79P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d79p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D79P11A",
+    "connections": []
+  },
+  "d73p41a": {
+    "id": "d73p41a",
+    "name": "D73P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d73p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D73P41A",
+    "connections": []
+  },
+  "d73p31a": {
+    "id": "d73p31a",
+    "name": "D73P31A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d73p31a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D73P31A",
+    "connections": []
+  },
+  "d73p29a": {
+    "id": "d73p29a",
+    "name": "D73P29A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d73p29a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D73P29A",
+    "connections": []
+  },
+  "d73p28a": {
+    "id": "d73p28a",
+    "name": "D73P28A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d73p28a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D73P28A",
+    "connections": []
+  },
+  "d73p27a": {
+    "id": "d73p27a",
+    "name": "D73P27A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d73p27a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D73P27A",
+    "connections": []
+  },
+  "d73p26a": {
+    "id": "d73p26a",
+    "name": "D73P26A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d73p26a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D73P26A",
+    "connections": []
+  },
+  "d73p25a": {
+    "id": "d73p25a",
+    "name": "D73P25A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d73p25a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D73P25A",
+    "connections": []
+  },
+  "d73p24a": {
+    "id": "d73p24a",
+    "name": "D73P24A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d73p24a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D73P24A",
+    "connections": []
+  },
+  "d73p23a": {
+    "id": "d73p23a",
+    "name": "D73P23A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d73p23a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D73P23A",
+    "connections": []
+  },
+  "d73p22a": {
+    "id": "d73p22a",
+    "name": "D73P22A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d73p22a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D73P22A",
+    "connections": []
+  },
+  "d73p21a": {
+    "id": "d73p21a",
+    "name": "D73P21A",
+    "type": "dungeon_midpoint",
+    "source": "files/GROUND/d73p21a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D73P21A",
+    "connections": []
+  },
+  "d73p11a": {
+    "id": "d73p11a",
+    "name": "D73P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d73p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D73P11A",
+    "connections": []
+  },
+  "d71p41a": {
+    "id": "d71p41a",
+    "name": "D71P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d71p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D71P41A",
+    "connections": []
+  },
+  "d70p41a": {
+    "id": "d70p41a",
+    "name": "D70P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d70p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D70P41A",
+    "connections": []
+  },
+  "d69p41a": {
+    "id": "d69p41a",
+    "name": "D69P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d69p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D69P41A",
+    "connections": []
+  },
+  "d68p41a": {
+    "id": "d68p41a",
+    "name": "D68P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d68p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D68P41A",
+    "connections": []
+  },
+  "d67p41a": {
+    "id": "d67p41a",
+    "name": "D67P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d67p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D67P41A",
+    "connections": []
+  },
+  "d66p41a": {
+    "id": "d66p41a",
+    "name": "D66P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d66p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D66P41A",
+    "connections": []
+  },
+  "d65p41a": {
+    "id": "d65p41a",
+    "name": "D65P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d65p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D65P41A",
+    "connections": []
+  },
+  "d63p41a": {
+    "id": "d63p41a",
+    "name": "D63P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d63p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D63P41A",
+    "connections": []
+  },
+  "d57p44a": {
+    "id": "d57p44a",
+    "name": "D57P44A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d57p44a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D57P44A",
+    "connections": []
+  },
+  "d57p43a": {
+    "id": "d57p43a",
+    "name": "D57P43A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d57p43a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D57P43A",
+    "connections": []
+  },
+  "d57p42a": {
+    "id": "d57p42a",
+    "name": "D57P42A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d57p42a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D57P42A",
+    "connections": []
+  },
+  "d57p41a": {
+    "id": "d57p41a",
+    "name": "D57P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d57p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D57P41A",
+    "connections": []
+  },
+  "d57p21a": {
+    "id": "d57p21a",
+    "name": "D57P21A",
+    "type": "dungeon_midpoint",
+    "source": "files/GROUND/d57p21a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D57P21A",
+    "connections": []
+  },
+  "d56p41a": {
+    "id": "d56p41a",
+    "name": "D56P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d56p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D56P41A",
+    "connections": []
+  },
+  "d56p21a": {
+    "id": "d56p21a",
+    "name": "D56P21A",
+    "type": "dungeon_midpoint",
+    "source": "files/GROUND/d56p21a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D56P21A",
+    "connections": []
+  },
+  "d56p12a": {
+    "id": "d56p12a",
+    "name": "D56P12A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d56p12a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D56P12A",
+    "connections": []
+  },
+  "d56p11a": {
+    "id": "d56p11a",
+    "name": "D56P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d56p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D56P11A",
+    "connections": []
+  },
+  "d55p41a": {
+    "id": "d55p41a",
+    "name": "D55P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d55p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D55P41A",
+    "connections": []
+  },
+  "d55p21a": {
+    "id": "d55p21a",
+    "name": "D55P21A",
+    "type": "dungeon_midpoint",
+    "source": "files/GROUND/d55p21a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D55P21A",
+    "connections": []
+  },
+  "d55p11a": {
+    "id": "d55p11a",
+    "name": "D55P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d55p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D55P11A",
+    "connections": []
+  },
+  "d54p32a": {
+    "id": "d54p32a",
+    "name": "D54P32A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d54p32a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D54P32A",
+    "connections": []
+  },
+  "d54p31a": {
+    "id": "d54p31a",
+    "name": "D54P31A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d54p31a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D54P31A",
+    "connections": []
+  },
+  "d54p11a": {
+    "id": "d54p11a",
+    "name": "D54P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d54p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D54P11A",
+    "connections": []
+  },
+  "d53p41c": {
+    "id": "d53p41c",
+    "name": "D53P41C",
+    "type": "boss_arena",
+    "source": "files/GROUND/d53p41c.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D53P41C",
+    "connections": []
+  },
+  "d53p41b": {
+    "id": "d53p41b",
+    "name": "D53P41B",
+    "type": "boss_arena",
+    "source": "files/GROUND/d53p41b.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D53P41B",
+    "connections": []
+  },
+  "d53p41a": {
+    "id": "d53p41a",
+    "name": "D53P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d53p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D53P41A",
+    "connections": []
+  },
+  "d53p21a": {
+    "id": "d53p21a",
+    "name": "D53P21A",
+    "type": "dungeon_midpoint",
+    "source": "files/GROUND/d53p21a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D53P21A",
+    "connections": []
+  },
+  "d53p11b": {
+    "id": "d53p11b",
+    "name": "D53P11B",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d53p11b.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D53P11B",
+    "connections": []
+  },
+  "d53p11a": {
+    "id": "d53p11a",
+    "name": "D53P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d53p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D53P11A",
+    "connections": []
+  },
+  "d52p32a": {
+    "id": "d52p32a",
+    "name": "D52P32A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d52p32a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D52P32A",
+    "connections": []
+  },
+  "d52p31a": {
+    "id": "d52p31a",
+    "name": "D52P31A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d52p31a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D52P31A",
+    "connections": []
+  },
+  "d52p11c": {
+    "id": "d52p11c",
+    "name": "D52P11C",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d52p11c.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D52P11C",
+    "connections": []
+  },
+  "d52p11a": {
+    "id": "d52p11a",
+    "name": "D52P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d52p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D52P11A",
+    "connections": []
+  },
+  "d51p41a": {
+    "id": "d51p41a",
+    "name": "D51P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d51p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D51P41A",
+    "connections": []
+  },
+  "d51p21a": {
+    "id": "d51p21a",
+    "name": "D51P21A",
+    "type": "dungeon_midpoint",
+    "source": "files/GROUND/d51p21a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D51P21A",
+    "connections": []
+  },
+  "d51p11a": {
+    "id": "d51p11a",
+    "name": "D51P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d51p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D51P11A",
+    "connections": []
+  },
+  "d50p11a": {
+    "id": "d50p11a",
+    "name": "D50P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d50p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D50P11A",
+    "connections": []
+  },
+  "d48p21a": {
+    "id": "d48p21a",
+    "name": "D48P21A",
+    "type": "dungeon_midpoint",
+    "source": "files/GROUND/d48p21a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D48P21A",
+    "connections": []
+  },
+  "d48p11a": {
+    "id": "d48p11a",
+    "name": "D48P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d48p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D48P11A",
+    "connections": []
+  },
+  "d47p11a": {
+    "id": "d47p11a",
+    "name": "D47P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d47p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D47P11A",
+    "connections": []
+  },
+  "d46p31a": {
+    "id": "d46p31a",
+    "name": "D46P31A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d46p31a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D46P31A",
+    "connections": []
+  },
+  "d46p21a": {
+    "id": "d46p21a",
+    "name": "D46P21A",
+    "type": "dungeon_midpoint",
+    "source": "files/GROUND/d46p21a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D46P21A",
+    "connections": []
+  },
+  "d46p11a": {
+    "id": "d46p11a",
+    "name": "D46P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d46p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D46P11A",
+    "connections": []
+  },
+  "d45p42a": {
+    "id": "d45p42a",
+    "name": "D45P42A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d45p42a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D45P42A",
+    "connections": []
+  },
+  "d45p31a": {
+    "id": "d45p31a",
+    "name": "D45P31A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d45p31a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D45P31A",
+    "connections": []
+  },
+  "d45p21a": {
+    "id": "d45p21a",
+    "name": "D45P21A",
+    "type": "dungeon_midpoint",
+    "source": "files/GROUND/d45p21a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D45P21A",
+    "connections": []
+  },
+  "d44p31a": {
+    "id": "d44p31a",
+    "name": "D44P31A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d44p31a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D44P31A",
+    "connections": []
+  },
+  "d43p31a": {
+    "id": "d43p31a",
+    "name": "D43P31A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d43p31a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D43P31A",
+    "connections": []
+  },
+  "d42p42a": {
+    "id": "d42p42a",
+    "name": "D42P42A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d42p42a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D42P42A",
+    "connections": []
+  },
+  "d42p41a": {
+    "id": "d42p41a",
+    "name": "D42P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d42p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D42P41A",
+    "connections": []
+  },
+  "d42p31a": {
+    "id": "d42p31a",
+    "name": "D42P31A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d42p31a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D42P31A",
+    "connections": []
+  },
+  "d42p21a": {
+    "id": "d42p21a",
+    "name": "D42P21A",
+    "type": "dungeon_midpoint",
+    "source": "files/GROUND/d42p21a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D42P21A",
+    "connections": []
+  },
+  "d41p41a": {
+    "id": "d41p41a",
+    "name": "D41P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d41p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D41P41A",
+    "connections": []
+  },
+  "d41p21a": {
+    "id": "d41p21a",
+    "name": "D41P21A",
+    "type": "dungeon_midpoint",
+    "source": "files/GROUND/d41p21a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D41P21A",
+    "connections": []
+  },
+  "d40p11a": {
+    "id": "d40p11a",
+    "name": "D40P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d40p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D40P11A",
+    "connections": []
+  },
+  "d39p41a": {
+    "id": "d39p41a",
+    "name": "D39P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d39p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D39P41A",
+    "connections": []
+  },
+  "d39p32a": {
+    "id": "d39p32a",
+    "name": "D39P32A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d39p32a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D39P32A",
+    "connections": []
+  },
+  "d39p21a": {
+    "id": "d39p21a",
+    "name": "D39P21A",
+    "type": "dungeon_midpoint",
+    "source": "files/GROUND/d39p21a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D39P21A",
+    "connections": []
+  },
+  "d38p12a": {
+    "id": "d38p12a",
+    "name": "D38P12A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d38p12a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D38P12A",
+    "connections": []
+  },
+  "d38p11a": {
+    "id": "d38p11a",
+    "name": "D38P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d38p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D38P11A",
+    "connections": []
+  },
+  "d37p41a": {
+    "id": "d37p41a",
+    "name": "D37P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d37p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D37P41A",
+    "connections": []
+  },
+  "d37p11a": {
+    "id": "d37p11a",
+    "name": "D37P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d37p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D37P11A",
+    "connections": []
+  },
+  "d36p41a": {
+    "id": "d36p41a",
+    "name": "D36P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d36p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D36P41A",
+    "connections": []
+  },
+  "d36p11a": {
+    "id": "d36p11a",
+    "name": "D36P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d36p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D36P11A",
+    "connections": []
+  },
+  "d35p41a": {
+    "id": "d35p41a",
+    "name": "D35P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d35p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D35P41A",
+    "connections": []
+  },
+  "d35p21a": {
+    "id": "d35p21a",
+    "name": "D35P21A",
+    "type": "dungeon_midpoint",
+    "source": "files/GROUND/d35p21a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D35P21A",
+    "connections": []
+  },
+  "d34p41a": {
+    "id": "d34p41a",
+    "name": "D34P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d34p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D34P41A",
+    "connections": []
+  },
+  "d32p44a": {
+    "id": "d32p44a",
+    "name": "D32P44A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d32p44a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D32P44A",
+    "connections": []
+  },
+  "d32p33a": {
+    "id": "d32p33a",
+    "name": "D32P33A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d32p33a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D32P33A",
+    "connections": []
+  },
+  "d32p32a": {
+    "id": "d32p32a",
+    "name": "D32P32A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d32p32a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D32P32A",
+    "connections": []
+  },
+  "d32p31a": {
+    "id": "d32p31a",
+    "name": "D32P31A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d32p31a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D32P31A",
+    "connections": []
+  },
+  "d32p14a": {
+    "id": "d32p14a",
+    "name": "D32P14A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d32p14a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D32P14A",
+    "connections": []
+  },
+  "d32p13a": {
+    "id": "d32p13a",
+    "name": "D32P13A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d32p13a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D32P13A",
+    "connections": []
+  },
+  "d32p12a": {
+    "id": "d32p12a",
+    "name": "D32P12A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d32p12a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D32P12A",
+    "connections": []
+  },
+  "d32p11a": {
+    "id": "d32p11a",
+    "name": "D32P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d32p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D32P11A",
+    "connections": []
+  },
+  "d31p41a": {
+    "id": "d31p41a",
+    "name": "D31P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d31p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D31P41A",
+    "connections": []
+  },
+  "d31p31a": {
+    "id": "d31p31a",
+    "name": "D31P31A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d31p31a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D31P31A",
+    "connections": []
+  },
+  "d31p11a": {
+    "id": "d31p11a",
+    "name": "D31P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d31p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D31P11A",
+    "connections": []
+  },
+  "d30p41a": {
+    "id": "d30p41a",
+    "name": "D30P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d30p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D30P41A",
+    "connections": []
+  },
+  "d30p34a": {
+    "id": "d30p34a",
+    "name": "D30P34A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d30p34a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D30P34A",
+    "connections": []
+  },
+  "d30p33a": {
+    "id": "d30p33a",
+    "name": "D30P33A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d30p33a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D30P33A",
+    "connections": []
+  },
+  "d30p32a": {
+    "id": "d30p32a",
+    "name": "D30P32A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d30p32a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D30P32A",
+    "connections": []
+  },
+  "d30p21a": {
+    "id": "d30p21a",
+    "name": "D30P21A",
+    "type": "dungeon_midpoint",
+    "source": "files/GROUND/d30p21a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D30P21A",
+    "connections": []
+  },
+  "d29p11a": {
+    "id": "d29p11a",
+    "name": "D29P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d29p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D29P11A",
+    "connections": []
+  },
+  "d28p44a": {
+    "id": "d28p44a",
+    "name": "D28P44A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d28p44a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D28P44A",
+    "connections": []
+  },
+  "d28p34a": {
+    "id": "d28p34a",
+    "name": "D28P34A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d28p34a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D28P34A",
+    "connections": []
+  },
+  "d28p33a": {
+    "id": "d28p33a",
+    "name": "D28P33A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d28p33a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D28P33A",
+    "connections": []
+  },
+  "d28p32a": {
+    "id": "d28p32a",
+    "name": "D28P32A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d28p32a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D28P32A",
+    "connections": []
+  },
+  "d28p31a": {
+    "id": "d28p31a",
+    "name": "D28P31A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d28p31a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D28P31A",
+    "connections": []
+  },
+  "d28p21a": {
+    "id": "d28p21a",
+    "name": "D28P21A",
+    "type": "dungeon_midpoint",
+    "source": "files/GROUND/d28p21a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D28P21A",
+    "connections": []
+  },
+  "d27p11a": {
+    "id": "d27p11a",
+    "name": "D27P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d27p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D27P11A",
+    "connections": []
+  },
+  "d26p43a": {
+    "id": "d26p43a",
+    "name": "D26P43A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d26p43a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D26P43A",
+    "connections": []
+  },
+  "d26p31a": {
+    "id": "d26p31a",
+    "name": "D26P31A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d26p31a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D26P31A",
+    "connections": []
+  },
+  "d26p21a": {
+    "id": "d26p21a",
+    "name": "D26P21A",
+    "type": "dungeon_midpoint",
+    "source": "files/GROUND/d26p21a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D26P21A",
+    "connections": []
+  },
+  "d25p11a": {
+    "id": "d25p11a",
+    "name": "D25P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d25p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D25P11A",
+    "connections": []
+  },
+  "d24p31a": {
+    "id": "d24p31a",
+    "name": "D24P31A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d24p31a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D24P31A",
+    "connections": []
+  },
+  "d24p11a": {
+    "id": "d24p11a",
+    "name": "D24P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d24p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D24P11A",
+    "connections": []
+  },
+  "d23p11a": {
+    "id": "d23p11a",
+    "name": "D23P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d23p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D23P11A",
+    "connections": []
+  },
+  "d22p11a": {
+    "id": "d22p11a",
+    "name": "D22P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d22p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D22P11A",
+    "connections": []
+  },
+  "d21p41a": {
+    "id": "d21p41a",
+    "name": "D21P41A",
+    "type": "dungeon_midpoint",
+    "source": "files/GROUND/d21p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D21P41A",
+    "connections": []
+  },
+  "d21p21a": {
+    "id": "d21p21a",
+    "name": "D21P21A",
+    "type": "dungeon_midpoint",
+    "source": "files/GROUND/d21p21a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D21P21A",
+    "connections": []
+  },
+  "d20p11a": {
+    "id": "d20p11a",
+    "name": "D20P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d20p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D20P11A",
+    "connections": []
+  },
+  "d19p11a": {
+    "id": "d19p11a",
+    "name": "D19P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d19p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D19P11A",
+    "connections": []
+  },
+  "d18p11a": {
+    "id": "d18p11a",
+    "name": "D18P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d18p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D18P11A",
+    "connections": []
+  },
+  "d17p45a": {
+    "id": "d17p45a",
+    "name": "D17P45A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d17p45a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D17P45A",
+    "connections": []
+  },
+  "d17p34a": {
+    "id": "d17p34a",
+    "name": "D17P34A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d17p34a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D17P34A",
+    "connections": []
+  },
+  "d17p33a": {
+    "id": "d17p33a",
+    "name": "D17P33A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d17p33a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D17P33A",
+    "connections": []
+  },
+  "d17p32a": {
+    "id": "d17p32a",
+    "name": "D17P32A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d17p32a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D17P32A",
+    "connections": []
+  },
+  "d17p31a": {
+    "id": "d17p31a",
+    "name": "D17P31A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d17p31a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D17P31A",
+    "connections": []
+  },
+  "d17p11a": {
+    "id": "d17p11a",
+    "name": "D17P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d17p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D17P11A",
+    "connections": []
+  },
+  "d16p31a": {
+    "id": "d16p31a",
+    "name": "D16P31A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d16p31a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D16P31A",
+    "connections": []
+  },
+  "d16p11a": {
+    "id": "d16p11a",
+    "name": "D16P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d16p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D16P11A",
+    "connections": []
+  },
+  "d15p41a": {
+    "id": "d15p41a",
+    "name": "D15P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d15p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D15P41A",
+    "connections": []
+  },
+  "d15p21a": {
+    "id": "d15p21a",
+    "name": "D15P21A",
+    "type": "dungeon_midpoint",
+    "source": "files/GROUND/d15p21a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D15P21A",
+    "connections": []
+  },
+  "d14p12a": {
+    "id": "d14p12a",
+    "name": "D14P12A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d14p12a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D14P12A",
+    "connections": []
+  },
+  "d14p11a": {
+    "id": "d14p11a",
+    "name": "D14P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d14p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D14P11A",
+    "connections": []
+  },
+  "d13p11a": {
+    "id": "d13p11a",
+    "name": "D13P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d13p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D13P11A",
+    "connections": []
+  },
+  "d12p41a": {
+    "id": "d12p41a",
+    "name": "D12P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d12p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D12P41A",
+    "connections": []
+  },
+  "d12p21a": {
+    "id": "d12p21a",
+    "name": "D12P21A",
+    "type": "dungeon_midpoint",
+    "source": "files/GROUND/d12p21a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D12P21A",
+    "connections": []
+  },
+  "d11p11a": {
+    "id": "d11p11a",
+    "name": "D11P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d11p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D11P11A",
+    "connections": []
+  },
+  "d10p41a": {
+    "id": "d10p41a",
+    "name": "D10P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d10p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D10P41A",
+    "connections": []
+  },
+  "d10p21a": {
+    "id": "d10p21a",
+    "name": "D10P21A",
+    "type": "dungeon_midpoint",
+    "source": "files/GROUND/d10p21a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D10P21A",
+    "connections": []
+  },
+  "d09p11a": {
+    "id": "d09p11a",
+    "name": "D09P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d09p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D09P11A",
+    "connections": []
+  },
+  "d08p11a": {
+    "id": "d08p11a",
+    "name": "D08P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d08p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D08P11A",
+    "connections": []
+  },
+  "d07p11a": {
+    "id": "d07p11a",
+    "name": "D07P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d07p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D07P11A",
+    "connections": []
+  },
+  "d06p11a": {
+    "id": "d06p11a",
+    "name": "D06P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d06p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D06P11A",
+    "connections": []
+  },
+  "d05p31a": {
+    "id": "d05p31a",
+    "name": "D05P31A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d05p31a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D05P31A",
+    "connections": []
+  },
+  "d05p11a": {
+    "id": "d05p11a",
+    "name": "D05P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d05p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D05P11A",
+    "connections": []
+  },
+  "d04p31a": {
+    "id": "d04p31a",
+    "name": "D04P31A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d04p31a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D04P31A",
+    "connections": []
+  },
+  "d04p12a": {
+    "id": "d04p12a",
+    "name": "D04P12A",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d04p12a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D04P12A",
+    "connections": []
+  },
+  "d04p11a": {
+    "id": "d04p11a",
+    "name": "D04P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d04p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D04P11A",
+    "connections": []
+  },
+  "d03p41a": {
+    "id": "d03p41a",
+    "name": "D03P41A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d03p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D03P41A",
+    "connections": []
+  },
+  "d03p11a": {
+    "id": "d03p11a",
+    "name": "D03P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d03p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D03P11A",
+    "connections": []
+  },
+  "d02p31a": {
+    "id": "d02p31a",
+    "name": "D02P31A",
+    "type": "boss_arena",
+    "source": "files/GROUND/d02p31a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D02P31A",
+    "connections": []
+  },
+  "d02p11a": {
+    "id": "d02p11a",
+    "name": "D02P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d02p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D02P11A",
+    "connections": []
+  },
+  "d01p41a": {
+    "id": "d01p41a",
+    "name": "D01P41A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d01p41a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D01P41A",
+    "connections": []
+  },
+  "d01p11b": {
+    "id": "d01p11b",
+    "name": "D01P11B",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d01p11b.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D01P11B",
+    "connections": []
+  },
+  "d01p11a": {
+    "id": "d01p11a",
+    "name": "D01P11A",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d01p11a.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D01P11A",
+    "connections": []
+  },
+  "d00p02": {
+    "id": "d00p02",
+    "name": "D00P02",
+    "type": "cinematic_zone",
+    "source": "files/GROUND/d00p02.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D00P02",
+    "connections": []
+  },
+  "d00p01": {
+    "id": "d00p01",
+    "name": "D00P01",
+    "type": "dungeon_entrance",
+    "source": "files/GROUND/d00p01.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/D00P01",
+    "connections": []
+  },
+  "common": {
+    "id": "common",
+    "name": "COMMON",
+    "type": "unknown",
+    "source": "files/GROUND/common.sir0",
+    "script_folder": "files/language-specific/US/SCRIPT/COMMON",
+    "connections": []
+  }
+}

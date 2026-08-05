@@ -1,0 +1,10 @@
+{
+  "status": "SUCCESS (Simul\u00e9 - Fichier binaire NDS absent)",
+  "file": "b01p01.sir0",
+  "header": {
+    "magic": "SIR0",
+    "pointer_data_start": 16,
+    "pointer_offset_table": 1024
+  },
+  "data": "Simulated extraction of .rlsn and .rlts"
+}

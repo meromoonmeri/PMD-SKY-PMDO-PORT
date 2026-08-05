@@ -1,0 +1,19 @@
+{
+  "mappings": {
+    "Wait": {"lua": "GAME:WaitFrames({frames})"},
+    "CameraMove": {"lua": "GAME:MoveCamera({x}, {y}, {speed}, true)"},
+    "CameraMoveToEntity": {"lua": "GAME:MoveCamera({entity}.MapLoc.X, {entity}.MapLoc.Y, {speed}, true)"},
+    "BGMPlay": {"lua": "GAME:PlayBGM('{track_id}', true)"},
+    "BGMFadeOut": {"lua": "GAME:FadeOutBGM({frames})"},
+    "SEPlay": {"lua": "SOUND:PlayBattleSE('{sfx_id}')"},
+    "ScreenWhiteOut": {"lua": "GAME:FadeOut(true, {frames})"},
+    "ScreenWhiteIn": {"lua": "GAME:FadeIn({frames})"},
+    "ScreenBlackOut": {"lua": "GAME:FadeOut(false, {frames})"},
+    "ScreenBlackIn": {"lua": "GAME:FadeIn({frames})"},
+    "ScreenShake": {"lua": "SOUND:PlayBattleSE('EVT_Roar')\n  GAME:WaitFrames({frames})"},
+    "EntityMovePosition": {"lua": "GROUND:MoveToPosition({entity}, {x}, {y}, false, {speed})"},
+    "EntityTurn": {"lua": "GROUND:EntTurn({entity}, Direction.{direction})"},
+    "EntitySetAnimation": {"lua": "GROUND:CharSetAction({entity}, RogueEssence.Ground.Animations.{anim}Action())"},
+    "Message": {"lua": "UI:WaitShowDialogue(STRINGS:FormatKey('{new_era_key}'))"}
+  }
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "dungeon": "Temporal Tower",
+    "entrance": "d05p11a",
+    "floors": 13,
+    "midpoint": "d05p31a",
+    "boss": "PrimalDialga",
+    "arena": "d05p41a",
+    "exit_ground": "t01p01a"
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "scene_name": "m01a0103",
+  "source": "/tmp/pmd-sky/files/language-specific/US/SCRIPT/D01P11A/m01a0103.ssb",
+  "instructions": [
+    {
+      "command": "ScreenBlackOut",
+      "args": {
+        "frames": 1
+      }
+    },
+    {
+      "command": "CameraMoveToEntity",
+      "args": {
+        "entity": "hero",
+        "speed": 1
+      }
+    },
+    {
+      "command": "BGMPlay",
+      "args": {
+        "track_id": "MUS_BEACH"
+      }
+    },
+    {
+      "command": "ScreenBlackIn",
+      "args": {
+        "frames": 60
+      }
+    },
+    {
+      "command": "Wait",
+      "args": {
+        "frames": 30
+      }
+    },
+    {
+      "command": "EntityTurn",
+      "args": {
+        "entity": "partner",
+        "direction": "Left"
+      }
+    },
+    {
+      "command": "EntitySetAnimation",
+      "args": {
+        "entity": "partner",
+        "anim": "Surprise"
+      }
+    },
+    {
+      "command": "SEPlay",
+      "args": {
+        "sfx_id": "SE_NOTICE"
+      }
+    },
+    {
+      "command": "EntityMovePosition",
+      "args": {
+        "entity": "partner",
+        "x": 10,
+        "y": 15,
+        "speed": 2
+      }
+    },
+    {
+      "command": "Message",
+      "args": {
+        "speaker": "partner",
+        "text": "Are you okay?!"
+      }
+    }
+  ]
+}

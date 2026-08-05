@@ -1,0 +1,991 @@
+{
+  "nodes": [
+    {
+      "id": "t01p04a",
+      "label": "T01P04A",
+      "type": "town"
+    },
+    {
+      "id": "t01p03a",
+      "label": "T01P03A",
+      "type": "town"
+    },
+    {
+      "id": "t01p02a",
+      "label": "T01P02A",
+      "type": "town"
+    },
+    {
+      "id": "t01p01a",
+      "label": "T01P01A",
+      "type": "town"
+    },
+    {
+      "id": "t00p03",
+      "label": "T00P03",
+      "type": "town"
+    },
+    {
+      "id": "t00p02",
+      "label": "T00P02",
+      "type": "town"
+    },
+    {
+      "id": "t00p01",
+      "label": "T00P01",
+      "type": "town"
+    },
+    {
+      "id": "s99p03a",
+      "label": "S99P03A",
+      "type": "event"
+    },
+    {
+      "id": "s99p01a",
+      "label": "S99P01A",
+      "type": "event"
+    },
+    {
+      "id": "s14p01a",
+      "label": "S14P01A",
+      "type": "event"
+    },
+    {
+      "id": "s13p09a",
+      "label": "S13P09A",
+      "type": "event"
+    },
+    {
+      "id": "s13p08a",
+      "label": "S13P08A",
+      "type": "event"
+    },
+    {
+      "id": "s13p06a",
+      "label": "S13P06A",
+      "type": "event"
+    },
+    {
+      "id": "s13p05a",
+      "label": "S13P05A",
+      "type": "event"
+    },
+    {
+      "id": "s13p04b",
+      "label": "S13P04B",
+      "type": "event"
+    },
+    {
+      "id": "s13p03a",
+      "label": "S13P03A",
+      "type": "event"
+    },
+    {
+      "id": "s13p02a",
+      "label": "S13P02A",
+      "type": "event"
+    },
+    {
+      "id": "s11p02c",
+      "label": "S11P02C",
+      "type": "event"
+    },
+    {
+      "id": "s08p01a",
+      "label": "S08P01A",
+      "type": "event"
+    },
+    {
+      "id": "s05p03a",
+      "label": "S05P03A",
+      "type": "event"
+    },
+    {
+      "id": "s05p01a",
+      "label": "S05P01A",
+      "type": "event"
+    },
+    {
+      "id": "s04p01a",
+      "label": "S04P01A",
+      "type": "event"
+    },
+    {
+      "id": "s02p01a",
+      "label": "S02P01A",
+      "type": "event"
+    },
+    {
+      "id": "s01p03a",
+      "label": "S01P03A",
+      "type": "event"
+    },
+    {
+      "id": "s01p02a",
+      "label": "S01P02A",
+      "type": "event"
+    },
+    {
+      "id": "s01p01a",
+      "label": "S01P01A",
+      "type": "event"
+    },
+    {
+      "id": "s00p01a",
+      "label": "S00P01A",
+      "type": "event"
+    },
+    {
+      "id": "d90p41a",
+      "label": "D90P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d89p41a",
+      "label": "D89P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d88p41a",
+      "label": "D88P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d87p41a",
+      "label": "D87P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d86p41a",
+      "label": "D86P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d85p41a",
+      "label": "D85P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d84p41a",
+      "label": "D84P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d83p41a",
+      "label": "D83P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d82p41a",
+      "label": "D82P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d81p41a",
+      "label": "D81P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d80p41a",
+      "label": "D80P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d79p41a",
+      "label": "D79P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d79p21a",
+      "label": "D79P21A",
+      "type": "dungeon_midpoint"
+    },
+    {
+      "id": "d79p11a",
+      "label": "D79P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d73p41a",
+      "label": "D73P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d73p31a",
+      "label": "D73P31A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d73p29a",
+      "label": "D73P29A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d73p28a",
+      "label": "D73P28A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d73p27a",
+      "label": "D73P27A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d73p26a",
+      "label": "D73P26A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d73p25a",
+      "label": "D73P25A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d73p24a",
+      "label": "D73P24A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d73p23a",
+      "label": "D73P23A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d73p22a",
+      "label": "D73P22A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d73p21a",
+      "label": "D73P21A",
+      "type": "dungeon_midpoint"
+    },
+    {
+      "id": "d73p11a",
+      "label": "D73P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d71p41a",
+      "label": "D71P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d70p41a",
+      "label": "D70P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d69p41a",
+      "label": "D69P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d68p41a",
+      "label": "D68P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d67p41a",
+      "label": "D67P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d66p41a",
+      "label": "D66P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d65p41a",
+      "label": "D65P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d63p41a",
+      "label": "D63P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d57p44a",
+      "label": "D57P44A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d57p43a",
+      "label": "D57P43A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d57p42a",
+      "label": "D57P42A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d57p41a",
+      "label": "D57P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d57p21a",
+      "label": "D57P21A",
+      "type": "dungeon_midpoint"
+    },
+    {
+      "id": "d56p41a",
+      "label": "D56P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d56p21a",
+      "label": "D56P21A",
+      "type": "dungeon_midpoint"
+    },
+    {
+      "id": "d56p12a",
+      "label": "D56P12A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d56p11a",
+      "label": "D56P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d55p41a",
+      "label": "D55P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d55p21a",
+      "label": "D55P21A",
+      "type": "dungeon_midpoint"
+    },
+    {
+      "id": "d55p11a",
+      "label": "D55P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d54p32a",
+      "label": "D54P32A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d54p31a",
+      "label": "D54P31A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d54p11a",
+      "label": "D54P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d53p41c",
+      "label": "D53P41C",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d53p41b",
+      "label": "D53P41B",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d53p41a",
+      "label": "D53P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d53p21a",
+      "label": "D53P21A",
+      "type": "dungeon_midpoint"
+    },
+    {
+      "id": "d53p11b",
+      "label": "D53P11B",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d53p11a",
+      "label": "D53P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d52p32a",
+      "label": "D52P32A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d52p31a",
+      "label": "D52P31A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d52p11c",
+      "label": "D52P11C",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d52p11a",
+      "label": "D52P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d51p41a",
+      "label": "D51P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d51p21a",
+      "label": "D51P21A",
+      "type": "dungeon_midpoint"
+    },
+    {
+      "id": "d51p11a",
+      "label": "D51P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d50p11a",
+      "label": "D50P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d48p21a",
+      "label": "D48P21A",
+      "type": "dungeon_midpoint"
+    },
+    {
+      "id": "d48p11a",
+      "label": "D48P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d47p11a",
+      "label": "D47P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d46p31a",
+      "label": "D46P31A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d46p21a",
+      "label": "D46P21A",
+      "type": "dungeon_midpoint"
+    },
+    {
+      "id": "d46p11a",
+      "label": "D46P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d45p42a",
+      "label": "D45P42A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d45p31a",
+      "label": "D45P31A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d45p21a",
+      "label": "D45P21A",
+      "type": "dungeon_midpoint"
+    },
+    {
+      "id": "d44p31a",
+      "label": "D44P31A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d43p31a",
+      "label": "D43P31A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d42p42a",
+      "label": "D42P42A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d42p41a",
+      "label": "D42P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d42p31a",
+      "label": "D42P31A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d42p21a",
+      "label": "D42P21A",
+      "type": "dungeon_midpoint"
+    },
+    {
+      "id": "d41p41a",
+      "label": "D41P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d41p21a",
+      "label": "D41P21A",
+      "type": "dungeon_midpoint"
+    },
+    {
+      "id": "d40p11a",
+      "label": "D40P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d39p41a",
+      "label": "D39P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d39p32a",
+      "label": "D39P32A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d39p21a",
+      "label": "D39P21A",
+      "type": "dungeon_midpoint"
+    },
+    {
+      "id": "d38p12a",
+      "label": "D38P12A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d38p11a",
+      "label": "D38P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d37p41a",
+      "label": "D37P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d37p11a",
+      "label": "D37P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d36p41a",
+      "label": "D36P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d36p11a",
+      "label": "D36P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d35p41a",
+      "label": "D35P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d35p21a",
+      "label": "D35P21A",
+      "type": "dungeon_midpoint"
+    },
+    {
+      "id": "d34p41a",
+      "label": "D34P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d32p44a",
+      "label": "D32P44A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d32p33a",
+      "label": "D32P33A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d32p32a",
+      "label": "D32P32A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d32p31a",
+      "label": "D32P31A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d32p14a",
+      "label": "D32P14A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d32p13a",
+      "label": "D32P13A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d32p12a",
+      "label": "D32P12A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d32p11a",
+      "label": "D32P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d31p41a",
+      "label": "D31P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d31p31a",
+      "label": "D31P31A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d31p11a",
+      "label": "D31P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d30p41a",
+      "label": "D30P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d30p34a",
+      "label": "D30P34A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d30p33a",
+      "label": "D30P33A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d30p32a",
+      "label": "D30P32A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d30p21a",
+      "label": "D30P21A",
+      "type": "dungeon_midpoint"
+    },
+    {
+      "id": "d29p11a",
+      "label": "D29P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d28p44a",
+      "label": "D28P44A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d28p34a",
+      "label": "D28P34A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d28p33a",
+      "label": "D28P33A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d28p32a",
+      "label": "D28P32A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d28p31a",
+      "label": "D28P31A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d28p21a",
+      "label": "D28P21A",
+      "type": "dungeon_midpoint"
+    },
+    {
+      "id": "d27p11a",
+      "label": "D27P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d26p43a",
+      "label": "D26P43A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d26p31a",
+      "label": "D26P31A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d26p21a",
+      "label": "D26P21A",
+      "type": "dungeon_midpoint"
+    },
+    {
+      "id": "d25p11a",
+      "label": "D25P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d24p31a",
+      "label": "D24P31A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d24p11a",
+      "label": "D24P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d23p11a",
+      "label": "D23P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d22p11a",
+      "label": "D22P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d21p41a",
+      "label": "D21P41A",
+      "type": "dungeon_midpoint"
+    },
+    {
+      "id": "d21p21a",
+      "label": "D21P21A",
+      "type": "dungeon_midpoint"
+    },
+    {
+      "id": "d20p11a",
+      "label": "D20P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d19p11a",
+      "label": "D19P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d18p11a",
+      "label": "D18P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d17p45a",
+      "label": "D17P45A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d17p34a",
+      "label": "D17P34A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d17p33a",
+      "label": "D17P33A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d17p32a",
+      "label": "D17P32A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d17p31a",
+      "label": "D17P31A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d17p11a",
+      "label": "D17P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d16p31a",
+      "label": "D16P31A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d16p11a",
+      "label": "D16P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d15p41a",
+      "label": "D15P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d15p21a",
+      "label": "D15P21A",
+      "type": "dungeon_midpoint"
+    },
+    {
+      "id": "d14p12a",
+      "label": "D14P12A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d14p11a",
+      "label": "D14P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d13p11a",
+      "label": "D13P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d12p41a",
+      "label": "D12P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d12p21a",
+      "label": "D12P21A",
+      "type": "dungeon_midpoint"
+    },
+    {
+      "id": "d11p11a",
+      "label": "D11P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d10p41a",
+      "label": "D10P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d10p21a",
+      "label": "D10P21A",
+      "type": "dungeon_midpoint"
+    },
+    {
+      "id": "d09p11a",
+      "label": "D09P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d08p11a",
+      "label": "D08P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d07p11a",
+      "label": "D07P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d06p11a",
+      "label": "D06P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d05p31a",
+      "label": "D05P31A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d05p11a",
+      "label": "D05P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d04p31a",
+      "label": "D04P31A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d04p12a",
+      "label": "D04P12A",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d04p11a",
+      "label": "D04P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d03p41a",
+      "label": "D03P41A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d03p11a",
+      "label": "D03P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d02p31a",
+      "label": "D02P31A",
+      "type": "boss_arena"
+    },
+    {
+      "id": "d02p11a",
+      "label": "D02P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d01p41a",
+      "label": "D01P41A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d01p11b",
+      "label": "D01P11B",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d01p11a",
+      "label": "D01P11A",
+      "type": "dungeon_entrance"
+    },
+    {
+      "id": "d00p02",
+      "label": "D00P02",
+      "type": "cinematic_zone"
+    },
+    {
+      "id": "d00p01",
+      "label": "D00P01",
+      "type": "dungeon_entrance"
+    }
+  ],
+  "edges": [
+    {
+      "source": "t01p01a",
+      "target": "t01p02a",
+      "label": "town_east_exit"
+    },
+    {
+      "source": "t01p02a",
+      "target": "d01p11a",
+      "label": "crossroads_south"
+    },
+    {
+      "source": "t01p02a",
+      "target": "t01p03a",
+      "label": "crossroads_west"
+    },
+    {
+      "source": "t01p03a",
+      "target": "t01p04a",
+      "label": "guild_ladder_down"
+    }
+  ]
+}

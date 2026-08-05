@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "engine": {
+      "source": "NDS_RLCN_RLTS",
+      "target": "PMDO_TileSheet"
+    },
+    "formats": {
+      "palette_nds": "BGR555 (15-bit)",
+      "palette_pmdo": "RGBA8888 (32-bit)",
+      "transparency_index": 0
+    },
+    "actions": {
+      "extraction": "bake_to_png",
+      "conversion": "png_to_tile",
+      "compression": "identity_mapped"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "comment": "Architecture de remplacement pour New Era. La géométrie (X, Y) reste stricte, seuls les acteurs changent.",
+  "replacements": [
+    {
+      "original_entity": "NPC_PARTNER",
+      "replacement": "new_era_partner",
+      "keep_position": true,
+      "keep_animation": false
+    },
+    {
+      "original_entity": "NPC_HERO",
+      "replacement": "new_era_hero",
+      "keep_position": true,
+      "keep_animation": false
+    },
+    {
+      "original_entity": "NPC_WIGGLYTUFF",
+      "replacement": "new_era_guildmaster",
+      "keep_position": true,
+      "keep_animation": false
+    }
+  ]
+}

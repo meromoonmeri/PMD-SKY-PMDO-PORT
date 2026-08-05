@@ -1,0 +1,21 @@
+{
+  "b01p01": {
+    "ground_name": "Beach",
+    "cinematics": [
+      "m01a0103.lua",
+      "m01a0104.lua"
+    ]
+  },
+  "t01p01a": {
+    "ground_name": "Treasure Town",
+    "cinematics": [
+      "t01p01a_intro.lua"
+    ]
+  },
+  "d13p03": {
+    "ground_name": "Temporal Tower Summit",
+    "cinematics": [
+      "d13p03.lua"
+    ]
+  }
+}

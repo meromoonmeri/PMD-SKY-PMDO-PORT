@@ -1,0 +1,43 @@
+{
+  "map_size": {
+    "width": 80,
+    "height": 60
+  },
+  "tiles": [
+    "tile_sand",
+    "tile_water",
+    "tile_cliff"
+  ],
+  "layers": 2,
+  "collision": [
+    0,
+    0,
+    1,
+    1,
+    0
+  ],
+  "entities": [
+    {
+      "id": "hero_spawn",
+      "type": "player_spawn",
+      "x": 40,
+      "y": 30
+    },
+    {
+      "id": "partner",
+      "type": "npc_spawn",
+      "x": 42,
+      "y": 30,
+      "npc_id": "bulbasaur"
+    }
+  ],
+  "events": [
+    {
+      "id": "cutscene_trigger",
+      "type": "event_trigger",
+      "x": 45,
+      "y": 30,
+      "script": "m01a0103.lua"
+    }
+  ]
+}

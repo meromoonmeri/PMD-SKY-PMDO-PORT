@@ -1,0 +1,49 @@
+{
+  "strict_policy": {
+    "philosophy": "Reuse -> Map -> Convert -> Never Reimplement",
+    "core_engine": "RogueEssence / PMDC",
+    "source_engine": "pret/pmd-sky (Nintendo DS)"
+  },
+  "modules": {
+    "pokemon_species": {
+      "pmdo_native": true,
+      "action": "map_reference_only",
+      "rule": "Extract ID/Name from NDS tables. Map to PMDO species. DO NOT export sprites, stats, portraits, or typings."
+    },
+    "moves_skills": {
+      "pmdo_native": true,
+      "action": "map_reference_only",
+      "rule": "Use PMDC SkillData. Extract base power, accuracy, PP if rebalancing is needed. Ignore targeting AI."
+    },
+    "combat_ai": {
+      "pmdo_native": true,
+      "action": "ignore",
+      "rule": "Discard ARM9 AI routines. Use PMDC AITactics."
+    },
+    "weather": {
+      "pmdo_native": true,
+      "action": "map_reference_only",
+      "rule": "Map NDS weather flags to PMDO MapStatus IDs. Do not recreate mechanics."
+    },
+    "dungeon_generation": {
+      "pmdo_native": true,
+      "action": "extract_parameters_to_rogueelements",
+      "rule": "Extract Floor counts, SpawnLists, Item tables from Sky tables. Generate RogueElements FloorPlan XML."
+    },
+    "ground_maps": {
+      "pmdo_native": false,
+      "action": "full_conversion",
+      "rule": "Unpack Sir0 containers. Extract NDS geometry and palettes. Output perfect .rsground and .tile."
+    },
+    "cinematics": {
+      "pmdo_native": false,
+      "action": "choreography_extraction",
+      "rule": "Parse .ssb compiled scripts. Extract timings, cameras, flashes, VFX, SFX, BGM, movements. Convert to Lua."
+    },
+    "items": {
+      "pmdo_native": "partial",
+      "action": "conditional_import",
+      "rule": "Check if item exists in PMDC. If yes: map reference. If no: extract ItemData, icon, and .wan ground sprite."
+    }
+  }
+}
