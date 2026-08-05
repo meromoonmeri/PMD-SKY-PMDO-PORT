@@ -1,0 +1,18 @@
+{
+  "VFX_TIME_RIPPLE": {
+    "id": "dimensional_scream_effect",
+    "type": "screen_effect",
+    "used_by": [
+      "dimensional_scream_01"
+    ],
+    "source": "files/EFFECT/time_ripple.wan"
+  },
+  "VFX_AURA_BURST": {
+    "id": "legendary_aura",
+    "type": "particle",
+    "used_by": [
+      "legendary_arrival"
+    ],
+    "source": "files/EFFECT/aura_burst.wan"
+  }
+}

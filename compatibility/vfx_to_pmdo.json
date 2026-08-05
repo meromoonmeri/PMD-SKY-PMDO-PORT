@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "ScreenFlash": {
+      "white": "GAME:FadeOut(true, {duration})\n  GAME:FadeIn({duration})",
+      "black": "GAME:FadeOut(false, {duration})\n  GAME:FadeIn({duration})"
+    },
+    "CameraShake": "GAME:WaitFrames({power} * 5) -- Native equivalent approximation for NDS ScreenShake",
+    "ParticleSpawn": "GAME:PlayVFX('{effect_id}')",
+    "ColorOverlay": "GAME:FadeOut(true, {duration}) -- Approximation for filters like Sepia",
+    "AlphaBlend": "GAME:FadeOut(false, {duration}) -- Fade approximation",
+    "Audio_Track": "GAME:PlayBGM('{track}', true)",
+    "Audio_SFX": "SOUND:PlayBattleSE('{sfx}')"
+  }
+}

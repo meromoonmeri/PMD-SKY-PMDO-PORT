@@ -1,0 +1,87 @@
+{
+  "m01a0103": {
+    "scene": "m01a0103",
+    "effects": [
+      {
+        "type": "ScreenFlash",
+        "duration": 30,
+        "color": "white",
+        "raw": "ScreenWhiteOut(30)"
+      },
+      {
+        "type": "CameraShake",
+        "power": 5,
+        "raw": "ScreenShake(5)"
+      },
+      {
+        "type": "Audio",
+        "track": "MUS_BEACH",
+        "raw": "BGMPlay(MUS_BEACH)"
+      }
+    ]
+  },
+  "dimensional_scream_01": {
+    "scene": "dimensional_scream_01",
+    "effects": [
+      {
+        "type": "ColorOverlay",
+        "color": "sepia",
+        "duration": 60,
+        "raw": "ScreenFilter(Sepia, 60)"
+      },
+      {
+        "type": "CameraDistortion",
+        "intensity": "high",
+        "raw": "CameraWarp(high)"
+      },
+      {
+        "type": "ParticleSpawn",
+        "effect_id": "VFX_TIME_RIPPLE",
+        "raw": "EffectPlay(VFX_TIME_RIPPLE)"
+      },
+      {
+        "type": "Audio",
+        "sfx": "SE_DIMENSIONAL_SCREAM",
+        "raw": "SEPlay(SE_DIMENSIONAL_SCREAM)"
+      }
+    ]
+  },
+  "flashback_01": {
+    "scene": "flashback_01",
+    "effects": [
+      {
+        "type": "AlphaBlend",
+        "target": "memory",
+        "duration": 45,
+        "raw": "AlphaBlend(memory, 45)"
+      },
+      {
+        "type": "ScreenFlash",
+        "duration": 10,
+        "color": "white",
+        "raw": "ScreenWhiteOut(10)"
+      }
+    ]
+  },
+  "legendary_arrival": {
+    "scene": "legendary_arrival",
+    "effects": [
+      {
+        "type": "ParticleSpawn",
+        "effect_id": "VFX_AURA_BURST",
+        "raw": "EffectPlay(VFX_AURA_BURST)"
+      },
+      {
+        "type": "ScreenFlash",
+        "duration": 5,
+        "color": "white",
+        "raw": "ScreenWhiteOut(5)"
+      },
+      {
+        "type": "CameraShake",
+        "power": 10,
+        "raw": "ScreenShake(10)"
+      }
+    ]
+  }
+}
