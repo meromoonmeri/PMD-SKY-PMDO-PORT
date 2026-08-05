@@ -1,0 +1,20 @@
+<!-- RogueElements FloorPlan / PMDO Dungeon Pack Generator -->
+<!-- Source: PMD Sky (NDS) - TEMPORAL_SPIRE -->
+<FloorPlan>
+  <Name>Temporal Spire</Name>
+  <Floors>10</Floors>
+  <Spawns>
+    <MobSpawn>
+      <Species>porygon2</Species>
+      <Rate>10</Rate>
+    </MobSpawn>
+    <MobSpawn>
+      <Species>bronzong</Species>
+      <Rate>10</Rate>
+    </MobSpawn>
+    <MobSpawn>
+      <Species>solrock</Species>
+      <Rate>10</Rate>
+    </MobSpawn>
+  </Spawns>
+</FloorPlan>
