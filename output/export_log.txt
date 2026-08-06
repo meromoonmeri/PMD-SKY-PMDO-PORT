@@ -267,3 +267,7 @@ PROCESS s99p01a5 (bpa=-)
   purge locale + skip-worktree: S99p01a5_Base.tile, s99p01a5.rsground
   SUCCESS s99p01a5 (1s)
 PROCESS s99p03a2 (bpa=-)
+  pushed origin/master: s99p03a2
+  purge locale + skip-worktree: S99p03a2_Base.tile, s99p03a2.rsground
+  SUCCESS s99p03a2 (1s)
+PROCESS s99p03a3 (bpa=-)
