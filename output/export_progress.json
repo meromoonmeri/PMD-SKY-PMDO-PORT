@@ -1,6 +1,6 @@
 {
  "total": 452,
- "exported": 109,
+ "exported": 110,
  "already": 118,
  "failed": [],
  "invalid_refs": [],
@@ -113,7 +113,8 @@
   "p10p01a",
   "p11p01a",
   "p14p01a",
-  "p15p01a"
+  "p15p01a",
+  "p16p01a"
  ],
  "dims_reports": [
   {
