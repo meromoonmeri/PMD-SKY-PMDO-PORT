@@ -1,6 +1,6 @@
 {
  "total": 70,
- "exported": 23,
+ "exported": 24,
  "already": 0,
  "failed": [],
  "invalid_refs": [],
@@ -27,7 +27,8 @@
   "v25p04a",
   "v26p01a",
   "v26p02a",
-  "v26p03a"
+  "v26p03a",
+  "v26p04a"
  ],
  "animated": [
   "v22p01a",
