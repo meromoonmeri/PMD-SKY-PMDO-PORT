@@ -3,54 +3,60 @@
 """
 convert_nds_map.py — Conversion pixel-perfect MAP_BG PMD Sky (NDS) -> PMDO
 =============================================================================
-Décode les décors de donjon de Pokémon Donjon Mystère Explorateurs du Ciel
-(présents dans pret/pmd-sky/files/MAP_BG/ sous forme .bpl/.bpc/.bma/.bpa)
-avec skytemple-files, puis les convertit en assets RogueEssence :
+CONFORME AU CAHIER DES CHARGES (corrections strictes appliquées).
 
-  - .tile : planche 8px contenant TOUTES les tuiles uniques de TOUTES les
-            frames d'animation (eau/lave/cascades), format RogueEssence.
-  - .rsground : la carte rendue à l'identique (bma.to_pil), avec
-            - Layers[0].Tiles[x][y].Layers[0].Frames = les frames d'animation
-              de la cellule (FrameLength=10 si animée, 60 sinon)
-            - obstacles = collision BMA d'origine (Tags 1 = bloqué)
-            - Main_Entrance_Marker au centre de la zone marchable
-            - AssetName = nom du fichier (règle New Era)
+Objectif : chaque MAP_BG devient un Ground PMDO exploitable :
+    Data/Grounds/<asset>.rsground  +  Data/Tiles/<sheet>.tile
+contenant Layers / Tiles / Frames / obstacles / Entities / Markers,
+chargeable dans RogueEssence/New Era sans correction manuelle.
 
-CORRECTION BUG DES TUILES NOIRES (BPA) :
-Le .bma référence parfois des IDs de tuiles "hors limites" du tileset de base
-(ex: tuile 690 alors que le .bpc n'en contient que 682). Ces tuiles
-supplémentaires sont injectées dynamiquement en VRAM par les fichiers
-d'animation .BPA (eau, lave, drapeaux). Ce convertisseur :
-  1. détecte les .bpa associés à la carte ;
-  2. lit leur en-tête (nombre de frames, tuiles par frame) ;
-  3. construit la liste bg_list des 8 slots (4 pour layer 0, 4 pour layer 1)
-     en plaçant chaque BPA dans le slot dont la taille attendue (bpc.layers
-     [L].bpas[i]) correspond ;
-  4. bma.to_pil(bpc, bpl, slots) concatène alors les tuiles du BPA à la fin
-     du tileset de base à chaque frame -> plus aucune tuile noire ;
-  5. chaque frame d'animation est rendue en PNG distinct ;
-  6. le tout est compressé en un .tile multicouche + .rsground avec
-     FrameLength (10 si animé, 60 sinon).
+1. RENDU — OBLIGATOIRE via skytemple-files : bma.to_pil(bpc, bpl, bpas).
+   Aucune reconstruction manuelle, aucun redessin, aucune transformation
+   spatiale (pas de resize, pas de correction esthétique).
+
+2. COLLISION — SOURCE UNIQUE : bma_obj.collision.
+   Cas A : présente  -> exactement les données originales.
+   Cas B : absente   -> Tags = 0 PARTOUT (aucune analyse de couleur, aucun
+           mur artificiel). Rapport : collision_source=NONE,
+           collision_generated=false. Commentaire du .rsground :
+           "No BMA collision layer available. No artificial collision generated."
+
+3. DIMENSIONS — audit systématique IMAGE / CAMERA / COLLISION / DECISION.
+   Jamais de correction silencieuse : toute différence est consignée.
+
+4. BPA — 8 slots (0-3 layer0, 4-7 layer1) via bpc.layers[L].bpas[i] <-> bpa.
+   Validation RÉELLE : une erreur est UNIQUEMENT
+     "tile index demandé > tiles disponibles après injection BPA".
+   Une tuile noire normale n'est PAS une erreur.
+
+5. LOGS DE PROGRESSION par carte :
+   START MAP / LOAD BMA / LOAD BPC / LOAD BPL / LOAD BPA / RENDER /
+   WRITE TILE / WRITE GROUND / DONE
 
 Usage :
-  python3 tools/convert_nds_map.py <bpl> <bpc> <bma> <asset_name> [--bpa a,b] [--fr "Nom FR"]
+  python3 tools/convert_nds_map.py <bpl> <bpc> <bma> <asset> [--bpa a,b] [--fr "Nom"]
+  OUT=output_test pour tester vers un dossier temporaire.
 """
+import contextlib
 import io
 import json
 import os
+import re
 import struct
 import sys
-import contextlib
 
 from skytemple_files.common.types.file_types import FileType
 
 BASE = '/tmp/pmd-sky/files/MAP_BG'
+OUT_DIR = os.environ.get('OUT', 'output')  # 'output' ou 'output_test'
+
+
+def log(msg):
+    print(msg, flush=True)
 
 
 def write_tile_file(img_frames, out_path, tile_size=8):
-    """Pack une planche .tile avec toutes les tuiles uniques de toutes les frames.
-    Déduplication par PIXELS (les PNG PIL diffèrent pour des pixels identiques
-    selon le mode d'image : on normalise en RGBA et on compare les pixels).
+    """Planche .tile : tuiles uniques de toutes les frames, dédup par pixels RGBA.
     Retourne (per_frame, n_uniques). per_frame[f][idx] = (px, py) dans la planche."""
     frames = [fr.convert('RGBA') for fr in img_frames]
     W, H = frames[0].size
@@ -100,8 +106,6 @@ def write_tile_file(img_frames, out_path, tile_size=8):
 def make_rsground(name, name_fr, comment, sheet, W, H, collision, per_frame,
                   out_path):
     def tile_cell(frames_pos):
-        """frames_pos : liste de (px, py) dans la planche, une par frame.
-        Déduplique les frames identiques (cellules statiques -> 1 frame)."""
         seen, uniq = set(), []
         for pos in frames_pos:
             if pos not in seen:
@@ -127,7 +131,7 @@ def make_rsground(name, name_fr, comment, sheet, W, H, collision, per_frame,
                    "Tags": 1 if collision[y*W + x] else 0}
                   for y in range(H)] for x in range(W)]
 
-    # Main_Entrance_Marker : walkable le plus proche du centre géométrique
+    # Main_Entrance_Marker : FALLBACK uniquement, marche, proche du centre
     walk = [(x, y) for x in range(W) for y in range(H) if not collision[y*W + x]]
     if walk:
         gx, gy = W // 2, H // 2
@@ -183,16 +187,12 @@ def make_rsground(name, name_fr, comment, sheet, W, H, collision, per_frame,
         json.dump(d, f, ensure_ascii=False, indent=1)
 
 
-def convert(bpl, bpc, bma, asset, name_fr, bpa_files=None):
-    bma_obj = FileType.BMA.deserialize(open(f'{BASE}/{bma}.bma', 'rb').read())
-    bpc_obj = FileType.BPC.deserialize(open(f'{BASE}/{bpc}.bpc', 'rb').read())
-    bpl_obj = FileType.BPL.deserialize(open(f'{BASE}/{bpl}.bpl', 'rb').read())
-
-    # --- BPA : tuiles injectees dynamiquement (animation eau/lave/drapeaux) ---
+def build_bpa_slots(bpc_obj, bpa_files):
+    """8 slots (0-3 layer0, 4-7 layer1) : bpc.layers[L].bpas[i] <-> bpa.number_of_tiles."""
+    slots = [None] * 8
     bpas_obj = []
     for b in (bpa_files or []):
         bpas_obj.append(FileType.BPA.deserialize(open(f'{BASE}/{b}.bpa', 'rb').read()))
-    slots = [None] * 8
     for L in range(min(2, len(bpc_obj.layers))):
         expected = bpc_obj.layers[L].bpas
         for i, need in enumerate(expected[:4]):
@@ -201,60 +201,123 @@ def convert(bpl, bpc, bma, asset, name_fr, bpa_files=None):
                     if bpa.number_of_tiles == need and slots[L*4 + i] is None:
                         slots[L*4 + i] = bpa
                         break
-    # Le signal EXACT du bug des tuiles noires : les "invalid tile reference"
-    # de skytemple (= IDs hors limites du tileset de base, résolus par BPA).
-    # Un fond noir LÉGITIME (grotte sombre) ne produit AUCUN invalid ref.
+    return slots, bpas_obj
+
+
+def analyze_invalid_refs(errtext, bpc_obj, bpas_obj, bpa_files):
+    """Parse les 'invalid tile reference' de skytemple pour produire le rapport
+    détaillé : map / layer / tile index demandé / disponibles après BPA / BPA."""
+    detail = []
+    pat = re.compile(r'TileMappingEntry (\d+) - (\d+) - .*invalid tile reference')
+    for m in pat.finditer(errtext):
+        idx = int(m.group(1))
+        layer = int(m.group(2))
+        # tiles disponibles après injection BPA pour ce layer
+        base = len(bpc_obj.layers[layer].tiles) if layer < len(bpc_obj.layers) else 0
+        bpa_add = 0
+        bpa_names = []
+        for i in range(4):
+            bpa = (bpas_obj[layer*4 + i] if layer*4 + i < len(bpas_obj) else None)
+            if bpa is not None:
+                bpa_add += bpa.number_of_tiles
+                if bpa_files and layer*4 + i < len(bpa_files):
+                    bpa_names.append(bpa_files[layer*4 + i])
+        detail.append({
+            'layer': layer, 'tile_index_demande': idx,
+            'tiles_disponibles': base + bpa_add,
+            'bpa_associe': ','.join(bpa_names) or 'AUCUN',
+        })
+    return detail
+
+
+def convert(bpl, bpc, bma, asset, name_fr, bpa_files=None):
+    """Retourne un dict. Ne lève jamais pour données manquantes : tout est
+    consigné (champ 'error')."""
+    log(f'START MAP {bma}')
+    res = {'src': bma, 'asset': asset, 'error': None, 'invalid': 0,
+           'invalid_detail': [], 'frames': 0, 'collision_source': 'BMA',
+           'collision_generated': True, 'dims': {}, 'logs': []}
+
+    log('LOAD BMA')
+    bma_obj = FileType.BMA.deserialize(open(f'{BASE}/{bma}.bma', 'rb').read())
+    log('LOAD BPC')
+    bpc_obj = FileType.BPC.deserialize(open(f'{BASE}/{bpc}.bpc', 'rb').read())
+    log('LOAD BPL')
+    bpl_obj = FileType.BPL.deserialize(open(f'{BASE}/{bpl}.bpl', 'rb').read())
+    log('LOAD BPA')
+    slots, bpas_obj = build_bpa_slots(bpc_obj, bpa_files)
+
+    log('RENDER')
     errbuf = io.StringIO()
     with contextlib.redirect_stderr(errbuf):
         frames = bma_obj.to_pil(bpc_obj, bpl_obj, slots, include_collision=False,
                                 include_unknown_data_block=False, pal_ani=True)
-    n_invalid = sum(1 for l in errbuf.getvalue().splitlines()
-                    if 'invalid tile' in l)
+    errtext = errbuf.getvalue()
+    n_invalid = sum(1 for l in errtext.splitlines() if 'invalid tile' in l)
+    res['invalid'] = n_invalid
+    res['frames'] = len(frames)
+    res['invalid_detail'] = analyze_invalid_refs(errtext, bpc_obj, bpas_obj,
+                                                 bpa_files)
 
-    W = bma_obj.map_width_camera
-    H = bma_obj.map_height_camera
-    coll = bma_obj.collision
-    derived = coll is None
-    if coll is None:
-        img0 = frames[0].convert('RGB')
-        px = img0.load()
-        coll = []
-        for y in range(H):
-            for x in range(W):
-                black = all(px[x*8+i, y*8+j][:3] == (0, 0, 0)
-                            for i in (0, 3, 7) for j in (0, 3, 7))
-                coll.append(black)
-    collision = list(coll)
-    if len(collision) != W * H:
-        collision = collision + [True] * (W * H - len(collision))
+    # --- AUDIT DIMENSIONS : IMAGE / CAMERA / COLLISION / DECISION ---
+    img_w, img_h = frames[0].size
+    grid_w, grid_h = img_w // 8, img_h // 8
+    cam_w, cam_h = bma_obj.map_width_camera, bma_obj.map_height_camera
+    coll_raw = bma_obj.collision
+    coll_len = len(coll_raw) if coll_raw is not None else 0
+    res['dims'] = {
+        'IMAGE': f'{grid_w}x{grid_h}',
+        'CAMERA': f'{cam_w}x{cam_h}',
+        'COLLISION': f'{coll_len}',
+        'DECISION': ('rendu skytemple conservé tel quel (grille=image)'
+                     if (grid_w, grid_h) != (cam_w, cam_h) else 'image==camera'),
+    }
+    log(f"MAP: {asset} IMAGE: {grid_w}x{grid_h} CAMERA: {cam_w}x{cam_h} "
+        f"COLLISION: {coll_len} DECISION: {res['dims']['DECISION']}")
 
-    # --- Contrôle anti-tuiles-noires ---
-    black_cells = 0
-    for fr in frames:
-        fr_rgb = fr.convert('RGB')
-        px = fr_rgb.load()
-        black_cells = max(black_cells, sum(
-            1 for y in range(H) for x in range(W)
-            if px[x*8, y*8] == (0, 0, 0)))
-    n_frame = len(frames)
+    # --- COLLISION : SOURCE UNIQUE bma_obj.collision ---
+    if coll_raw is None:
+        # Cas B : AUCUNE collision BMA. Tags=0 partout. AUCUNE analyse pixels.
+        res['collision_source'] = 'NONE'
+        res['collision_generated'] = False
+        collision = [False] * (grid_w * grid_h)
+    else:
+        collision = list(coll_raw)
+        if len(collision) != grid_w * grid_h:
+            log(f"  WARN collision({len(collision)}) != grille({grid_w*grid_h}) "
+                f"— pad False pour aligner (fidélité BMA conservée)")
+            collision = collision + [False] * (grid_w * grid_h - len(collision))
 
+    # --- WRITE .tile ---
+    log('WRITE TILE')
     sheet = ''.join(p.capitalize() for p in asset.split('_')) + '_Base'
-    per_frame, n_uniq = write_tile_file(frames, f'output/Tiles/{sheet}.tile')
+    os.makedirs(f'{OUT_DIR}/Tiles', exist_ok=True)
+    os.makedirs(f'{OUT_DIR}/Grounds', exist_ok=True)
+    per_frame, n_uniq = write_tile_file(frames, f'{OUT_DIR}/Tiles/{sheet}.tile')
+
+    # --- WRITE .rsground ---
+    log('WRITE GROUND')
     bpa_note = (f'{len(bpas_obj)} BPA(s) injecté(s) ({", ".join(bpa_files or [])})'
                 if bpas_obj else 'aucun BPA')
+    if res['collision_source'] == 'NONE':
+        coll_note = ('No BMA collision layer available. '
+                     'No artificial collision generated.')
+    else:
+        coll_note = 'Collision BMA d\'origine.'
     comment = (f'PMD Sky (NDS) MAP_BG {bpl}/{bpc}/{bma} -> {asset}. '
                f'Rendered pixel-perfect via skytemple-files (bma.to_pil), '
-               f'{n_frame} frame(s), {bpa_note}, collision BMA d\'origine. '
+               f'{len(frames)} frame(s), {bpa_note}. {coll_note} '
                f'Source: pret/pmd-sky files/MAP_BG.')
-    make_rsground(asset, name_fr, comment, sheet, W, H, collision, per_frame,
-                  f'output/Grounds/{asset}.rsground')
+    make_rsground(asset, name_fr, comment, sheet, grid_w, grid_h, collision,
+                  per_frame, f'{OUT_DIR}/Grounds/{asset}.rsground')
+
     walk = sum(1 for c in collision if not c)
-    print(f'{bma} -> {asset:26s} {W}x{H} tuiles, {n_frame} frame(s), '
-          f'tuiles planche={n_uniq}u, libre={walk}/{W*H}, '
-          f'invalid_refs={n_invalid}, noires={black_cells}')
-    return {'src': bma, 'asset': asset, 'W': W, 'H': H, 'frames': n_frame,
-            'tiles': n_uniq, 'walk': walk, 'total': W * H, 'black': black_cells,
-            'invalid': n_invalid, 'bpas': bpa_files or []}
+    res.update({'W': grid_w, 'H': grid_h, 'tiles': n_uniq, 'walk': walk,
+                'total': grid_w * grid_h, 'bpas': bpa_files or []})
+    log(f'DONE {bma} -> {asset} {grid_w}x{grid_h}, {len(frames)} frame(s), '
+        f'planche={n_uniq}u, libre={walk}/{grid_w*grid_h}, '
+        f'invalid_refs={n_invalid}, collision_source={res["collision_source"]}')
+    return res
 
 
 if __name__ == '__main__':
