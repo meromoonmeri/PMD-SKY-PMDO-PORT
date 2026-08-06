@@ -1,13 +1,14 @@
 {
  "total": 70,
- "exported": 9,
+ "exported": 10,
  "already": 0,
  "failed": [],
  "invalid_refs": [],
  "collision_absent": [
   "t00p03",
   "v00p01",
-  "v00p02"
+  "v00p02",
+  "v00p03"
  ],
  "animated": [
   "t00p02",
