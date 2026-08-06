@@ -1,6 +1,6 @@
 {
  "total": 452,
- "exported": 14,
+ "exported": 15,
  "already": 118,
  "failed": [],
  "invalid_refs": [],
@@ -12,12 +12,14 @@
   "d55p41a",
   "d56p12a",
   "d56p41a",
-  "d57p41a"
+  "d57p41a",
+  "d57p42a"
  ],
  "animated": [
   "d53p41b",
   "d56p12a",
-  "d56p41a"
+  "d56p41a",
+  "d57p42a"
  ],
  "with_bpa": [],
  "dims_reports": []
