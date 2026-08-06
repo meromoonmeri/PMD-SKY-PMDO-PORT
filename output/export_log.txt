@@ -121,3 +121,7 @@ EXPORT 452 MAPS -> /home/user/SKY_PORT (déjà sur origin: 132)
 --- d53p21a --- deja exporte, skip
 --- d53p41a --- deja exporte, skip
 PROCESS d53p41b (bpa=-)
+  pushed origin/master: d53p41b
+  purge locale + skip-worktree: D53p41b_Base.tile, d53p41b.rsground
+  SUCCESS d53p41b (17s)
+PROCESS d53p41c (bpa=-)

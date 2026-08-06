@@ -1,0 +1,15 @@
+{
+ "total": 452,
+ "exported": 1,
+ "already": 118,
+ "failed": [],
+ "invalid_refs": [],
+ "collision_absent": [
+  "d53p41b"
+ ],
+ "animated": [
+  "d53p41b"
+ ],
+ "with_bpa": [],
+ "dims_reports": []
+}
