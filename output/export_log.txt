@@ -868,3 +868,7 @@ PROCESS w01a (bpa=-)
   purge locale + skip-worktree: W01a_Base.tile, w01a.rsground
   SUCCESS w01a (3s)
 PROCESS w01b (bpa=-)
+  pushed origin/master: w01b
+  purge locale + skip-worktree: W01b_Base.tile, w01b.rsground
+  SUCCESS w01b (2s)
+PROCESS w02a (bpa=-)
