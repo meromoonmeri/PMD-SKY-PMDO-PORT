@@ -700,3 +700,7 @@ PROCESS v25p03a (bpa=-)
   purge locale + skip-worktree: V25p03a_Base.tile, v25p03a.rsground
   SUCCESS v25p03a (2s)
 PROCESS v25p04a (bpa=-)
+  pushed origin/master: v25p04a
+  purge locale + skip-worktree: V25p04a_Base.tile, v25p04a.rsground
+  SUCCESS v25p04a (2s)
+PROCESS v26p01a (bpa=-)
