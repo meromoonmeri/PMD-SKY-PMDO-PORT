@@ -1,6 +1,6 @@
 {
  "total": 70,
- "exported": 58,
+ "exported": 59,
  "already": 0,
  "failed": [],
  "invalid_refs": [],
@@ -56,7 +56,8 @@
   "v14p04a",
   "v15p01a",
   "v15p02a",
-  "v15p03a"
+  "v15p03a",
+  "v16p02a"
  ],
  "animated": [
   "t00p02",
@@ -83,7 +84,8 @@
   "v10p03c",
   "v14p01a",
   "v15p02a",
-  "v15p03a"
+  "v15p03a",
+  "v16p02a"
  ],
  "with_bpa": [
   "t00p02",
@@ -101,7 +103,8 @@
   "v10p01c",
   "v10p03c",
   "v15p02a",
-  "v15p03a"
+  "v15p03a",
+  "v16p02a"
  ],
  "dims_reports": []
 }
