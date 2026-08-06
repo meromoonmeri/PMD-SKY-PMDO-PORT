@@ -1,6 +1,6 @@
 {
  "total": 70,
- "exported": 55,
+ "exported": 56,
  "already": 0,
  "failed": [],
  "invalid_refs": [],
@@ -58,7 +58,8 @@
   "s15p01a",
   "s15p02a",
   "s15p03a",
-  "s15p04a"
+  "s15p04a",
+  "s15p05a"
  ],
  "animated": [
   "p28p01a",
@@ -84,6 +85,12 @@
   "s13p08a"
  ],
  "dims_reports": [
+  {
+   "IMAGE": "33x24",
+   "CAMERA": "32x24",
+   "COLLISION": "0",
+   "DECISION": "rendu skytemple conservé tel quel (grille=image)"
+  },
   {
    "IMAGE": "33x24",
    "CAMERA": "32x24",
