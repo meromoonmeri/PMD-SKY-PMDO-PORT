@@ -1,6 +1,6 @@
 {
  "total": 70,
- "exported": 8,
+ "exported": 9,
  "already": 0,
  "failed": [],
  "invalid_refs": [],
@@ -15,9 +15,12 @@
   "s01p01b"
  ],
  "animated": [
-  "p28p01a"
+  "p28p01a",
+  "s01p02a"
  ],
- "with_bpa": [],
+ "with_bpa": [
+  "s01p02a"
+ ],
  "dims_reports": [
   {
    "IMAGE": "33x24",
