@@ -1,6 +1,6 @@
 {
  "total": 452,
- "exported": 110,
+ "exported": 111,
  "already": 118,
  "failed": [],
  "invalid_refs": [],
@@ -42,7 +42,8 @@
   "p12p02a",
   "p13p01a",
   "p14p01a",
-  "p15p01a"
+  "p15p01a",
+  "p17p01a"
  ],
  "animated": [
   "d53p41b",
@@ -114,7 +115,8 @@
   "p11p01a",
   "p14p01a",
   "p15p01a",
-  "p16p01a"
+  "p16p01a",
+  "p17p01a"
  ],
  "dims_reports": [
   {
