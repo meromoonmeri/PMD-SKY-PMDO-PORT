@@ -1,6 +1,6 @@
 {
  "total": 70,
- "exported": 5,
+ "exported": 6,
  "already": 0,
  "failed": [],
  "invalid_refs": [],
@@ -9,13 +9,17 @@
   "v22p01a",
   "v22p02a",
   "v22p03a",
-  "v23p01a"
+  "v23p01a",
+  "v23p04a"
  ],
  "animated": [
   "v22p01a",
   "v22p02a",
-  "v22p03a"
+  "v22p03a",
+  "v23p04a"
  ],
- "with_bpa": [],
+ "with_bpa": [
+  "v23p04a"
+ ],
  "dims_reports": []
 }
