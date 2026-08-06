@@ -1,6 +1,6 @@
 {
  "total": 70,
- "exported": 42,
+ "exported": 43,
  "already": 0,
  "failed": [],
  "invalid_refs": [],
@@ -45,7 +45,8 @@
   "s13p01a3",
   "s13p01a4",
   "s13p01a5",
-  "s13p02a"
+  "s13p02a",
+  "s13p03a"
  ],
  "animated": [
   "p28p01a",
@@ -58,10 +59,12 @@
   "s13p01a2",
   "s13p01a3",
   "s13p01a4",
-  "s13p01a5"
+  "s13p01a5",
+  "s13p03a"
  ],
  "with_bpa": [
-  "s01p02a"
+  "s01p02a",
+  "s13p03a"
  ],
  "dims_reports": [
   {
