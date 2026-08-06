@@ -491,3 +491,7 @@ PROCESS v04p03a (bpa=-)
   purge locale + skip-worktree: V04p03a_Base.tile, v04p03a.rsground
   SUCCESS v04p03a (1s)
 PROCESS v05p01a (bpa=-)
+  pushed origin/master: v05p01a
+  purge locale + skip-worktree: V05p01a_Base.tile, v05p01a.rsground
+  SUCCESS v05p01a (1s)
+PROCESS v05p02a (bpa=-)
