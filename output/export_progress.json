@@ -1,17 +1,19 @@
 {
  "total": 70,
- "exported": 3,
+ "exported": 4,
  "already": 0,
  "failed": [],
  "invalid_refs": [],
  "collision_absent": [
   "v21p02b",
   "v22p01a",
-  "v22p02a"
+  "v22p02a",
+  "v22p03a"
  ],
  "animated": [
   "v22p01a",
-  "v22p02a"
+  "v22p02a",
+  "v22p03a"
  ],
  "with_bpa": [],
  "dims_reports": []
