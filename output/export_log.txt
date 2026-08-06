@@ -15,3 +15,7 @@ PROCESS p26p01a (bpa=-)
   purge locale + skip-worktree: P26p01a_Base.tile, p26p01a.rsground
   SUCCESS p26p01a (2s)
 PROCESS p27p01a (bpa=-)
+  pushed origin/master: p27p01a
+  purge locale + skip-worktree: P27p01a_Base.tile, p27p01a.rsground
+  SUCCESS p27p01a (1s)
+PROCESS p28p01a (bpa=-)
