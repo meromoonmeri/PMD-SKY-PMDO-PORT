@@ -323,3 +323,7 @@ RAPPORT FINAL -> /home/user/SKY_PORT/output/export_progress.json
 EXPORT 70 MAPS -> /home/user/SKY_PORT (déjà sur origin: 70)
 ======================================================================
 PROCESS t00p02 (bpa=t00p025)
+  pushed origin/master: t00p02
+  purge locale + skip-worktree: T00p02_Base.tile, t00p02.rsground
+  SUCCESS t00p02 (3s)
+PROCESS t00p03 (bpa=t00p035)

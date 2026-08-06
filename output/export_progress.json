@@ -1,34 +1,15 @@
 {
- "MAP_BG Conversion Report": true,
- "Total MAP_BG": 70,
- "Exportés": 70,
- "Skip (déjà présents)": 0,
- "Failed": 0,
- "Animations": {
-  "Maps avec BPA": 3,
-  "Maps animées (>1 frame)": 17,
-  "Maps sans collision BMA (Tags=0 documenté)": 69
- },
- "Références invalides (bug tuiles noires)": [],
- "Rapports dimensions": [
-  {
-   "IMAGE": "33x24",
-   "CAMERA": "32x24",
-   "COLLISION": "0",
-   "DECISION": "rendu skytemple conservé tel quel (grille=image)"
-  },
-  {
-   "IMAGE": "33x24",
-   "CAMERA": "32x24",
-   "COLLISION": "0",
-   "DECISION": "rendu skytemple conservé tel quel (grille=image)"
-  },
-  {
-   "IMAGE": "33x24",
-   "CAMERA": "32x24",
-   "COLLISION": "0",
-   "DECISION": "rendu skytemple conservé tel quel (grille=image)"
-  }
+ "total": 70,
+ "exported": 1,
+ "already": 0,
+ "failed": [],
+ "invalid_refs": [],
+ "collision_absent": [],
+ "animated": [
+  "t00p02"
  ],
- "Liste erreurs détaillée": []
+ "with_bpa": [
+  "t00p02"
+ ],
+ "dims_reports": []
 }
