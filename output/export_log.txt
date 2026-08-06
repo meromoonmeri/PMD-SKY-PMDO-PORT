@@ -279,3 +279,47 @@ PROCESS s99p03a4 (bpa=-)
   purge locale + skip-worktree: S99p03a4_Base.tile, s99p03a4.rsground
   SUCCESS s99p03a4 (2s)
 PROCESS s99p03a5 (bpa=-)
+  pushed origin/master: s99p03a5
+  purge locale + skip-worktree: S99p03a5_Base.tile, s99p03a5.rsground
+  SUCCESS s99p03a5 (1s)
+======================================================================
+RAPPORT FINAL -> /home/user/SKY_PORT/output/export_progress.json
+{
+ "MAP_BG Conversion Report": true,
+ "Total MAP_BG": 70,
+ "Exportés": 70,
+ "Skip (déjà présents)": 0,
+ "Failed": 0,
+ "Animations": {
+  "Maps avec BPA": 3,
+  "Maps animées (>1 frame)": 17,
+  "Maps sans collision BMA (Tags=0 documenté)": 69
+ },
+ "Références invalides (bug tuiles noires)": [],
+ "Rapports dimensions": [
+  {
+   "IMAGE": "33x24",
+   "CAMERA": "32x24",
+   "COLLISION": "0",
+   "DECISION": "rendu skytemple conservé tel quel (grille=image)"
+  },
+  {
+   "IMAGE": "33x24",
+   "CAMERA": "32x24",
+   "COLLISION": "0",
+   "DECISION": "rendu skytemple conservé tel quel (grille=image)"
+  },
+  {
+   "IMAGE": "33x24",
+   "CAMERA": "32x24",
+   "COLLISION": "0",
+   "DECISION": "rendu skytemple conservé tel quel (grille=image)"
+  }
+ ],
+ "Liste erreurs détaillée": []
+}
+
+===== SESSION 2026-08-06 14:42:39 =====
+EXPORT 70 MAPS -> /home/user/SKY_PORT (déjà sur origin: 70)
+======================================================================
+PROCESS t00p02 (bpa=t00p025)
