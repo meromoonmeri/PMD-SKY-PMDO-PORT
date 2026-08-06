@@ -1,6 +1,6 @@
 {
  "total": 70,
- "exported": 4,
+ "exported": 5,
  "already": 0,
  "failed": [],
  "invalid_refs": [],
@@ -11,13 +11,15 @@
   "t00p02",
   "t00p03",
   "t00p04a",
-  "t01p01a"
+  "t01p01a",
+  "t01p02a"
  ],
  "with_bpa": [
   "t00p02",
   "t00p03",
   "t00p04a",
-  "t01p01a"
+  "t01p01a",
+  "t01p02a"
  ],
  "dims_reports": []
 }
