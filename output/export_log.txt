@@ -365,3 +365,7 @@ PROCESS d94p41a (bpa=-)
   purge locale + skip-worktree: D94p41a_Base.tile, d94p41a.rsground
   SUCCESS d94p41a (2s)
 PROCESS d95p41a (bpa=-)
+  pushed origin/master: d95p41a
+  purge locale + skip-worktree: D95p41a_Base.tile, d95p41a.rsground
+  SUCCESS d95p41a (2s)
+PROCESS g01p01a (bpa=g01p01a1)
