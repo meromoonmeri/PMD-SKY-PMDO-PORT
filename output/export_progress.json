@@ -1,6 +1,6 @@
 {
  "total": 452,
- "exported": 102,
+ "exported": 103,
  "already": 118,
  "failed": [],
  "invalid_refs": [],
@@ -35,7 +35,8 @@
   "p06p01a",
   "p07p01a",
   "p08p01a",
-  "p09p01a"
+  "p09p01a",
+  "p10p01a"
  ],
  "animated": [
   "d53p41b",
@@ -71,7 +72,8 @@
   "p03p01a",
   "p03p02a",
   "p04p01c",
-  "p06p01a"
+  "p06p01a",
+  "p10p01a"
  ],
  "with_bpa": [
   "d73p11a",
@@ -97,7 +99,8 @@
   "p01p03a",
   "p03p01a",
   "p03p02a",
-  "p04p01c"
+  "p04p01c",
+  "p10p01a"
  ],
  "dims_reports": [
   {
