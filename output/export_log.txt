@@ -441,3 +441,7 @@ PROCESS g01p10c (bpa=g01p10c1)
   purge locale + skip-worktree: G01p10c_Base.tile, g01p10c.rsground
   SUCCESS g01p10c (2s)
 PROCESS h01p99a (bpa=h01p99a1,h01p99a5)
+  pushed origin/master: h01p99a
+  purge locale + skip-worktree: H01p99a_Base.tile, h01p99a.rsground
+  SUCCESS h01p99a (2s)
+PROCESS h01p99c (bpa=h01p99c1,h01p99c5)
