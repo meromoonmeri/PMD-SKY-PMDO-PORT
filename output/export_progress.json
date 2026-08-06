@@ -1,6 +1,6 @@
 {
  "total": 452,
- "exported": 105,
+ "exported": 106,
  "already": 118,
  "failed": [],
  "invalid_refs": [],
@@ -38,7 +38,8 @@
   "p09p01a",
   "p10p01a",
   "p11p01a",
-  "p12p01a"
+  "p12p01a",
+  "p12p02a"
  ],
  "animated": [
   "d53p41b",
