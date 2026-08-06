@@ -249,3 +249,7 @@ PROCESS d73p11a (bpa=d73p11a1,d73p11a5)
   purge locale + skip-worktree: D73p11a_Base.tile, d73p11a.rsground
   SUCCESS d73p11a (2s)
 PROCESS d73p21a (bpa=-)
+  pushed origin/master: d73p21a
+  purge locale + skip-worktree: D73p21a_Base.tile, d73p21a.rsground
+  SUCCESS d73p21a (2s)
+PROCESS d73p22a (bpa=-)
