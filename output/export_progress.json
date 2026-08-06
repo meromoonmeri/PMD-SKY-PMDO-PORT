@@ -1,15 +1,13 @@
 {
- "MAP_BG Conversion Report": true,
- "Total MAP_BG": 70,
- "Exportés": 70,
- "Skip (déjà présents)": 0,
- "Failed": 0,
- "Animations": {
-  "Maps avec BPA": 17,
-  "Maps animées (>1 frame)": 29,
-  "Maps sans collision BMA (Tags=0 documenté)": 64
- },
- "Références invalides (bug tuiles noires)": [],
- "Rapports dimensions": [],
- "Liste erreurs détaillée": []
+ "total": 70,
+ "exported": 1,
+ "already": 0,
+ "failed": [],
+ "invalid_refs": [],
+ "collision_absent": [
+  "v21p02b"
+ ],
+ "animated": [],
+ "with_bpa": [],
+ "dims_reports": []
 }

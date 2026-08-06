@@ -624,3 +624,7 @@ RAPPORT FINAL -> /home/user/SKY_PORT/output/export_progress.json
 EXPORT 70 MAPS -> /home/user/SKY_PORT (déjà sur origin: 140)
 ======================================================================
 PROCESS v21p02b (bpa=-)
+  pushed origin/master: v21p02b
+  purge locale + skip-worktree: V21p02b_Base.tile, v21p02b.rsground
+  SUCCESS v21p02b (1s)
+PROCESS v22p01a (bpa=-)
