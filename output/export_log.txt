@@ -413,3 +413,7 @@ PROCESS g01p06b (bpa=g01p06b1)
   purge locale + skip-worktree: G01p06b_Base.tile, g01p06b.rsground
   SUCCESS g01p06b (2s)
 PROCESS g01p07a (bpa=-)
+  pushed origin/master: g01p07a
+  purge locale + skip-worktree: G01p07a_Base.tile, g01p07a.rsground
+  SUCCESS g01p07a (1s)
+PROCESS g01p07c (bpa=-)
