@@ -1,6 +1,6 @@
 {
  "total": 452,
- "exported": 81,
+ "exported": 82,
  "already": 118,
  "failed": [],
  "invalid_refs": [],
@@ -48,7 +48,8 @@
   "g01p07c",
   "g01p10a",
   "g01p10c",
-  "h01p99a"
+  "h01p99a",
+  "h01p99c"
  ],
  "with_bpa": [
   "d73p11a",
@@ -63,7 +64,8 @@
   "g01p06b",
   "g01p10a",
   "g01p10c",
-  "h01p99a"
+  "h01p99a",
+  "h01p99c"
  ],
  "dims_reports": [
   {
