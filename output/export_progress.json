@@ -1,6 +1,6 @@
 {
  "total": 70,
- "exported": 4,
+ "exported": 5,
  "already": 0,
  "failed": [],
  "invalid_refs": [],
@@ -8,9 +8,12 @@
   "p24p01a",
   "p25p01a",
   "p26p01a",
-  "p27p01a"
+  "p27p01a",
+  "p28p01a"
  ],
- "animated": [],
+ "animated": [
+  "p28p01a"
+ ],
  "with_bpa": [],
  "dims_reports": []
 }
