@@ -38,13 +38,16 @@ def inventory():
                 for f in glob.glob(f'{BASE}/*.{ext}')}
     bma, bpc, bpl = stems('bma'), stems('bpc'), stems('bpl')
     bpa_all = sorted(os.path.basename(f)[: -4] for f in glob.glob(f'{BASE}/*.bpa'))
-    bpa_by_map = {}
-    for b in bpa_all:
-        m = re.match(r'^(.*?)(\d+)$', b)
-        key = m.group(1) if m else b
-        bpa_by_map.setdefault(key, []).append(b)
     maps = sorted(bma & bpc & bpl)
-    return [(m, bpa_by_map.get(m, [])) for m in maps]
+    # Un BPA {mapname}{N}.bpa appartient à la map dont le nom est un PREFIXE
+    # exact du fichier (ex: t00p011 -> t00p01 ; d17p31a1 -> d17p31a).
+    # startswith sur le nom de map connu est sûr : t00p011.startswith('t00p01')
+    # est vrai, et les noms de maps sont exacts (issus des .bma).
+    entries = []
+    for m in maps:
+        bpas = sorted(b for b in bpa_all if b.startswith(m))
+        entries.append((m, bpas))
+    return entries
 
 
 def already_on_origin():
