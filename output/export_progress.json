@@ -1,6 +1,6 @@
 {
  "total": 452,
- "exported": 113,
+ "exported": 114,
  "already": 118,
  "failed": [],
  "invalid_refs": [],
@@ -44,7 +44,8 @@
   "p14p01a",
   "p15p01a",
   "p17p01a",
-  "p17p02c"
+  "p17p02c",
+  "p18p01a"
  ],
  "animated": [
   "d53p41b",
@@ -87,7 +88,8 @@
   "p14p01a",
   "p15p01a",
   "p17p02a",
-  "p17p02c"
+  "p17p02c",
+  "p18p01a"
  ],
  "with_bpa": [
   "d73p11a",
