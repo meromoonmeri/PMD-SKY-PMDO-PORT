@@ -1,0 +1,12 @@
+{
+  "$type": "PMDC.Data.ItemData, PMDC",
+  "Name": {
+    "DefaultText": "Time Gear",
+    "LocalTexts": {}
+  },
+  "Price": 5000,
+  "MaxStack": 1,
+  "Released": true,
+  "Comment": "Sky Exclusive Item auto-extracted (ID: 200)",
+  "Icon": 50
+}

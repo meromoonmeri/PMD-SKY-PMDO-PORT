@@ -1,0 +1,902 @@
+
+===== SESSION 2026-08-06 14:39:00 =====
+EXPORT 70 MAPS -> /home/user/SKY_PORT (déjà sur origin: 255)
+======================================================================
+PROCESS p24p01a (bpa=-)
+  pushed origin/master: p24p01a
+  purge locale + skip-worktree: P24p01a_Base.tile, p24p01a.rsground
+  SUCCESS p24p01a (42s)
+PROCESS p25p01a (bpa=-)
+  pushed origin/master: p25p01a
+  purge locale + skip-worktree: P25p01a_Base.tile, p25p01a.rsground
+  SUCCESS p25p01a (2s)
+PROCESS p26p01a (bpa=-)
+  pushed origin/master: p26p01a
+  purge locale + skip-worktree: P26p01a_Base.tile, p26p01a.rsground
+  SUCCESS p26p01a (2s)
+PROCESS p27p01a (bpa=-)
+  pushed origin/master: p27p01a
+  purge locale + skip-worktree: P27p01a_Base.tile, p27p01a.rsground
+  SUCCESS p27p01a (1s)
+PROCESS p28p01a (bpa=-)
+  pushed origin/master: p28p01a
+  purge locale + skip-worktree: P28p01a_Base.tile, p28p01a.rsground
+  SUCCESS p28p01a (2s)
+PROCESS s00p01a (bpa=-)
+  pushed origin/master: s00p01a
+  purge locale + skip-worktree: S00p01a_Base.tile, s00p01a.rsground
+  SUCCESS s00p01a (1s)
+PROCESS s01p01a (bpa=-)
+  pushed origin/master: s01p01a
+  purge locale + skip-worktree: S01p01a_Base.tile, s01p01a.rsground
+  SUCCESS s01p01a (4s)
+PROCESS s01p01b (bpa=-)
+  pushed origin/master: s01p01b
+  purge locale + skip-worktree: S01p01b_Base.tile, s01p01b.rsground
+  SUCCESS s01p01b (2s)
+PROCESS s01p02a (bpa=s01p02a1)
+  pushed origin/master: s01p02a
+  purge locale + skip-worktree: S01p02a_Base.tile, s01p02a.rsground
+  SUCCESS s01p02a (3s)
+PROCESS s01p04a (bpa=-)
+  pushed origin/master: s01p04a
+  purge locale + skip-worktree: S01p04a_Base.tile, s01p04a.rsground
+  SUCCESS s01p04a (1s)
+PROCESS s02p01a (bpa=-)
+  pushed origin/master: s02p01a
+  purge locale + skip-worktree: S02p01a_Base.tile, s02p01a.rsground
+  SUCCESS s02p01a (6s)
+PROCESS s03p01a (bpa=-)
+  pushed origin/master: s03p01a
+  purge locale + skip-worktree: S03p01a_Base.tile, s03p01a.rsground
+  SUCCESS s03p01a (3s)
+PROCESS s03p02a (bpa=-)
+  pushed origin/master: s03p02a
+  purge locale + skip-worktree: S03p02a_Base.tile, s03p02a.rsground
+  SUCCESS s03p02a (2s)
+PROCESS s04p01a (bpa=-)
+  pushed origin/master: s04p01a
+  purge locale + skip-worktree: S04p01a_Base.tile, s04p01a.rsground
+  SUCCESS s04p01a (1s)
+PROCESS s05p01a (bpa=-)
+  pushed origin/master: s05p01a
+  purge locale + skip-worktree: S05p01a_Base.tile, s05p01a.rsground
+  SUCCESS s05p01a (2s)
+PROCESS s05p02a (bpa=-)
+  pushed origin/master: s05p02a
+  purge locale + skip-worktree: S05p02a_Base.tile, s05p02a.rsground
+  SUCCESS s05p02a (1s)
+PROCESS s05p02b (bpa=-)
+  pushed origin/master: s05p02b
+  purge locale + skip-worktree: S05p02b_Base.tile, s05p02b.rsground
+  SUCCESS s05p02b (1s)
+PROCESS s05p02c (bpa=-)
+  pushed origin/master: s05p02c
+  purge locale + skip-worktree: S05p02c_Base.tile, s05p02c.rsground
+  SUCCESS s05p02c (1s)
+PROCESS s05p02c2 (bpa=-)
+  pushed origin/master: s05p02c2
+  purge locale + skip-worktree: S05p02c2_Base.tile, s05p02c2.rsground
+  SUCCESS s05p02c2 (1s)
+PROCESS s05p02c3 (bpa=-)
+  pushed origin/master: s05p02c3
+  purge locale + skip-worktree: S05p02c3_Base.tile, s05p02c3.rsground
+  SUCCESS s05p02c3 (1s)
+PROCESS s05p02c4 (bpa=-)
+  pushed origin/master: s05p02c4
+  purge locale + skip-worktree: S05p02c4_Base.tile, s05p02c4.rsground
+  SUCCESS s05p02c4 (1s)
+PROCESS s05p02c5 (bpa=-)
+  pushed origin/master: s05p02c5
+  purge locale + skip-worktree: S05p02c5_Base.tile, s05p02c5.rsground
+  SUCCESS s05p02c5 (1s)
+PROCESS s05p03a (bpa=-)
+  pushed origin/master: s05p03a
+  purge locale + skip-worktree: S05p03a_Base.tile, s05p03a.rsground
+  SUCCESS s05p03a (2s)
+PROCESS s05p04a (bpa=-)
+  pushed origin/master: s05p04a
+  purge locale + skip-worktree: S05p04a_Base.tile, s05p04a.rsground
+  SUCCESS s05p04a (7s)
+PROCESS s05p05a (bpa=-)
+  pushed origin/master: s05p05a
+  purge locale + skip-worktree: S05p05a_Base.tile, s05p05a.rsground
+  SUCCESS s05p05a (19s)
+PROCESS s05p05b (bpa=-)
+  pushed origin/master: s05p05b
+  purge locale + skip-worktree: S05p05b_Base.tile, s05p05b.rsground
+  SUCCESS s05p05b (18s)
+PROCESS s06p01a (bpa=-)
+  pushed origin/master: s06p01a
+  purge locale + skip-worktree: S06p01a_Base.tile, s06p01a.rsground
+  SUCCESS s06p01a (1s)
+PROCESS s07p01a (bpa=-)
+  pushed origin/master: s07p01a
+  purge locale + skip-worktree: S07p01a_Base.tile, s07p01a.rsground
+  SUCCESS s07p01a (1s)
+PROCESS s07p02a (bpa=-)
+  pushed origin/master: s07p02a
+  purge locale + skip-worktree: S07p02a_Base.tile, s07p02a.rsground
+  SUCCESS s07p02a (1s)
+PROCESS s08p01a (bpa=-)
+  pushed origin/master: s08p01a
+  purge locale + skip-worktree: S08p01a_Base.tile, s08p01a.rsground
+  SUCCESS s08p01a (1s)
+PROCESS s11p01a (bpa=-)
+  pushed origin/master: s11p01a
+  purge locale + skip-worktree: S11p01a_Base.tile, s11p01a.rsground
+  SUCCESS s11p01a (2s)
+PROCESS s11p02a (bpa=-)
+  pushed origin/master: s11p02a
+  purge locale + skip-worktree: S11p02a_Base.tile, s11p02a.rsground
+  SUCCESS s11p02a (2s)
+PROCESS s11p02b (bpa=-)
+  pushed origin/master: s11p02b
+  purge locale + skip-worktree: S11p02b_Base.tile, s11p02b.rsground
+  SUCCESS s11p02b (2s)
+PROCESS s11p02c2 (bpa=-)
+  pushed origin/master: s11p02c2
+  purge locale + skip-worktree: S11p02c2_Base.tile, s11p02c2.rsground
+  SUCCESS s11p02c2 (3s)
+PROCESS s11p02c3 (bpa=-)
+  pushed origin/master: s11p02c3
+  purge locale + skip-worktree: S11p02c3_Base.tile, s11p02c3.rsground
+  SUCCESS s11p02c3 (1s)
+PROCESS s11p02c4 (bpa=-)
+  pushed origin/master: s11p02c4
+  purge locale + skip-worktree: S11p02c4_Base.tile, s11p02c4.rsground
+  SUCCESS s11p02c4 (1s)
+PROCESS s11p02c5 (bpa=-)
+  pushed origin/master: s11p02c5
+  purge locale + skip-worktree: S11p02c5_Base.tile, s11p02c5.rsground
+  SUCCESS s11p02c5 (1s)
+PROCESS s13p01a2 (bpa=-)
+  pushed origin/master: s13p01a2
+  purge locale + skip-worktree: S13p01a2_Base.tile, s13p01a2.rsground
+  SUCCESS s13p01a2 (4s)
+PROCESS s13p01a3 (bpa=-)
+  pushed origin/master: s13p01a3
+  purge locale + skip-worktree: S13p01a3_Base.tile, s13p01a3.rsground
+  SUCCESS s13p01a3 (3s)
+PROCESS s13p01a4 (bpa=-)
+  pushed origin/master: s13p01a4
+  purge locale + skip-worktree: S13p01a4_Base.tile, s13p01a4.rsground
+  SUCCESS s13p01a4 (3s)
+PROCESS s13p01a5 (bpa=-)
+  pushed origin/master: s13p01a5
+  purge locale + skip-worktree: S13p01a5_Base.tile, s13p01a5.rsground
+  SUCCESS s13p01a5 (3s)
+PROCESS s13p02a (bpa=-)
+  pushed origin/master: s13p02a
+  purge locale + skip-worktree: S13p02a_Base.tile, s13p02a.rsground
+  SUCCESS s13p02a (2s)
+PROCESS s13p03a (bpa=s13p03a5)
+  pushed origin/master: s13p03a
+  purge locale + skip-worktree: S13p03a_Base.tile, s13p03a.rsground
+  SUCCESS s13p03a (2s)
+PROCESS s13p04a (bpa=-)
+  pushed origin/master: s13p04a
+  purge locale + skip-worktree: S13p04a_Base.tile, s13p04a.rsground
+  SUCCESS s13p04a (1s)
+PROCESS s13p04b (bpa=-)
+  pushed origin/master: s13p04b
+  purge locale + skip-worktree: S13p04b_Base.tile, s13p04b.rsground
+  SUCCESS s13p04b (1s)
+PROCESS s13p05a (bpa=-)
+  pushed origin/master: s13p05a
+  purge locale + skip-worktree: S13p05a_Base.tile, s13p05a.rsground
+  SUCCESS s13p05a (8s)
+PROCESS s13p06a (bpa=-)
+  pushed origin/master: s13p06a
+  purge locale + skip-worktree: S13p06a_Base.tile, s13p06a.rsground
+  SUCCESS s13p06a (1s)
+PROCESS s13p07a (bpa=-)
+  pushed origin/master: s13p07a
+  purge locale + skip-worktree: S13p07a_Base.tile, s13p07a.rsground
+  SUCCESS s13p07a (2s)
+PROCESS s13p08a (bpa=s13p08a1)
+  pushed origin/master: s13p08a
+  purge locale + skip-worktree: S13p08a_Base.tile, s13p08a.rsground
+  SUCCESS s13p08a (2s)
+PROCESS s13p09a (bpa=-)
+  pushed origin/master: s13p09a
+  purge locale + skip-worktree: S13p09a_Base.tile, s13p09a.rsground
+  SUCCESS s13p09a (2s)
+PROCESS s14p01a (bpa=-)
+  pushed origin/master: s14p01a
+  purge locale + skip-worktree: S14p01a_Base.tile, s14p01a.rsground
+  SUCCESS s14p01a (1s)
+PROCESS s15p01a (bpa=-)
+  pushed origin/master: s15p01a
+  purge locale + skip-worktree: S15p01a_Base.tile, s15p01a.rsground
+  SUCCESS s15p01a (2s)
+PROCESS s15p02a (bpa=-)
+  pushed origin/master: s15p02a
+  purge locale + skip-worktree: S15p02a_Base.tile, s15p02a.rsground
+  SUCCESS s15p02a (2s)
+PROCESS s15p03a (bpa=-)
+  pushed origin/master: s15p03a
+  purge locale + skip-worktree: S15p03a_Base.tile, s15p03a.rsground
+  SUCCESS s15p03a (1s)
+PROCESS s15p04a (bpa=-)
+  pushed origin/master: s15p04a
+  purge locale + skip-worktree: S15p04a_Base.tile, s15p04a.rsground
+  SUCCESS s15p04a (2s)
+PROCESS s15p05a (bpa=-)
+  pushed origin/master: s15p05a
+  purge locale + skip-worktree: S15p05a_Base.tile, s15p05a.rsground
+  SUCCESS s15p05a (1s)
+PROCESS s15p05b (bpa=-)
+  pushed origin/master: s15p05b
+  purge locale + skip-worktree: S15p05b_Base.tile, s15p05b.rsground
+  SUCCESS s15p05b (1s)
+PROCESS s17p01a (bpa=-)
+  pushed origin/master: s17p01a
+  purge locale + skip-worktree: S17p01a_Base.tile, s17p01a.rsground
+  SUCCESS s17p01a (4s)
+PROCESS s17p02a (bpa=-)
+  pushed origin/master: s17p02a
+  purge locale + skip-worktree: S17p02a_Base.tile, s17p02a.rsground
+  SUCCESS s17p02a (1s)
+PROCESS s20p01a (bpa=-)
+  pushed origin/master: s20p01a
+  purge locale + skip-worktree: S20p01a_Base.tile, s20p01a.rsground
+  SUCCESS s20p01a (1s)
+PROCESS s21p01a (bpa=-)
+  pushed origin/master: s21p01a
+  purge locale + skip-worktree: S21p01a_Base.tile, s21p01a.rsground
+  SUCCESS s21p01a (1s)
+PROCESS s99p01a (bpa=-)
+  pushed origin/master: s99p01a
+  purge locale + skip-worktree: S99p01a_Base.tile, s99p01a.rsground
+  SUCCESS s99p01a (1s)
+PROCESS s99p01a2 (bpa=-)
+  pushed origin/master: s99p01a2
+  purge locale + skip-worktree: S99p01a2_Base.tile, s99p01a2.rsground
+  SUCCESS s99p01a2 (1s)
+PROCESS s99p01a3 (bpa=-)
+  pushed origin/master: s99p01a3
+  purge locale + skip-worktree: S99p01a3_Base.tile, s99p01a3.rsground
+  SUCCESS s99p01a3 (1s)
+PROCESS s99p01a4 (bpa=-)
+  pushed origin/master: s99p01a4
+  purge locale + skip-worktree: S99p01a4_Base.tile, s99p01a4.rsground
+  SUCCESS s99p01a4 (1s)
+PROCESS s99p01a5 (bpa=-)
+  pushed origin/master: s99p01a5
+  purge locale + skip-worktree: S99p01a5_Base.tile, s99p01a5.rsground
+  SUCCESS s99p01a5 (1s)
+PROCESS s99p03a2 (bpa=-)
+  pushed origin/master: s99p03a2
+  purge locale + skip-worktree: S99p03a2_Base.tile, s99p03a2.rsground
+  SUCCESS s99p03a2 (1s)
+PROCESS s99p03a3 (bpa=-)
+  pushed origin/master: s99p03a3
+  purge locale + skip-worktree: S99p03a3_Base.tile, s99p03a3.rsground
+  SUCCESS s99p03a3 (2s)
+PROCESS s99p03a4 (bpa=-)
+  pushed origin/master: s99p03a4
+  purge locale + skip-worktree: S99p03a4_Base.tile, s99p03a4.rsground
+  SUCCESS s99p03a4 (2s)
+PROCESS s99p03a5 (bpa=-)
+  pushed origin/master: s99p03a5
+  purge locale + skip-worktree: S99p03a5_Base.tile, s99p03a5.rsground
+  SUCCESS s99p03a5 (1s)
+======================================================================
+RAPPORT FINAL -> /home/user/SKY_PORT/output/export_progress.json
+{
+ "MAP_BG Conversion Report": true,
+ "Total MAP_BG": 70,
+ "Exportés": 70,
+ "Skip (déjà présents)": 0,
+ "Failed": 0,
+ "Animations": {
+  "Maps avec BPA": 3,
+  "Maps animées (>1 frame)": 17,
+  "Maps sans collision BMA (Tags=0 documenté)": 69
+ },
+ "Références invalides (bug tuiles noires)": [],
+ "Rapports dimensions": [
+  {
+   "IMAGE": "33x24",
+   "CAMERA": "32x24",
+   "COLLISION": "0",
+   "DECISION": "rendu skytemple conservé tel quel (grille=image)"
+  },
+  {
+   "IMAGE": "33x24",
+   "CAMERA": "32x24",
+   "COLLISION": "0",
+   "DECISION": "rendu skytemple conservé tel quel (grille=image)"
+  },
+  {
+   "IMAGE": "33x24",
+   "CAMERA": "32x24",
+   "COLLISION": "0",
+   "DECISION": "rendu skytemple conservé tel quel (grille=image)"
+  }
+ ],
+ "Liste erreurs détaillée": []
+}
+
+===== SESSION 2026-08-06 14:42:39 =====
+EXPORT 70 MAPS -> /home/user/SKY_PORT (déjà sur origin: 70)
+======================================================================
+PROCESS t00p02 (bpa=t00p025)
+  pushed origin/master: t00p02
+  purge locale + skip-worktree: T00p02_Base.tile, t00p02.rsground
+  SUCCESS t00p02 (3s)
+PROCESS t00p03 (bpa=t00p035)
+  pushed origin/master: t00p03
+  purge locale + skip-worktree: T00p03_Base.tile, t00p03.rsground
+  SUCCESS t00p03 (2s)
+PROCESS t00p04a (bpa=t00p04a1)
+  pushed origin/master: t00p04a
+  purge locale + skip-worktree: T00p04a_Base.tile, t00p04a.rsground
+  SUCCESS t00p04a (2s)
+PROCESS t01p01a (bpa=t01p01a5)
+  pushed origin/master: t01p01a
+  purge locale + skip-worktree: T01p01a_Base.tile, t01p01a.rsground
+  SUCCESS t01p01a (2s)
+PROCESS t01p02a (bpa=t01p02a5)
+  pushed origin/master: t01p02a
+  purge locale + skip-worktree: T01p02a_Base.tile, t01p02a.rsground
+  SUCCESS t01p02a (2s)
+PROCESS t01p03a (bpa=t01p03a1)
+  pushed origin/master: t01p03a
+  purge locale + skip-worktree: T01p03a_Base.tile, t01p03a.rsground
+  SUCCESS t01p03a (2s)
+PROCESS t01p04a (bpa=t01p04a1)
+  pushed origin/master: t01p04a
+  purge locale + skip-worktree: T01p04a_Base.tile, t01p04a.rsground
+  SUCCESS t01p04a (2s)
+PROCESS v00p01 (bpa=v00p011)
+  pushed origin/master: v00p01
+  purge locale + skip-worktree: V00p01_Base.tile, v00p01.rsground
+  SUCCESS v00p01 (2s)
+PROCESS v00p02 (bpa=v00p021)
+  pushed origin/master: v00p02
+  purge locale + skip-worktree: V00p02_Base.tile, v00p02.rsground
+  SUCCESS v00p02 (2s)
+PROCESS v00p03 (bpa=-)
+  pushed origin/master: v00p03
+  purge locale + skip-worktree: V00p03_Base.tile, v00p03.rsground
+  SUCCESS v00p03 (2s)
+PROCESS v01p01a (bpa=v01p01a1)
+  pushed origin/master: v01p01a
+  purge locale + skip-worktree: V01p01a_Base.tile, v01p01a.rsground
+  SUCCESS v01p01a (2s)
+PROCESS v01p02a (bpa=-)
+  pushed origin/master: v01p02a
+  purge locale + skip-worktree: V01p02a_Base.tile, v01p02a.rsground
+  SUCCESS v01p02a (2s)
+PROCESS v01p03a (bpa=-)
+  pushed origin/master: v01p03a
+  purge locale + skip-worktree: V01p03a_Base.tile, v01p03a.rsground
+  SUCCESS v01p03a (2s)
+PROCESS v01p03b (bpa=-)
+  pushed origin/master: v01p03b
+  purge locale + skip-worktree: V01p03b_Base.tile, v01p03b.rsground
+  SUCCESS v01p03b (2s)
+PROCESS v01p03c (bpa=-)
+  pushed origin/master: v01p03c
+  purge locale + skip-worktree: V01p03c_Base.tile, v01p03c.rsground
+  SUCCESS v01p03c (2s)
+PROCESS v01p04b (bpa=-)
+  pushed origin/master: v01p04b
+  purge locale + skip-worktree: V01p04b_Base.tile, v01p04b.rsground
+  SUCCESS v01p04b (2s)
+PROCESS v01p05b (bpa=-)
+  pushed origin/master: v01p05b
+  purge locale + skip-worktree: V01p05b_Base.tile, v01p05b.rsground
+  SUCCESS v01p05b (1s)
+PROCESS v01p06b (bpa=-)
+  pushed origin/master: v01p06b
+  purge locale + skip-worktree: V01p06b_Base.tile, v01p06b.rsground
+  SUCCESS v01p06b (1s)
+PROCESS v01p07b (bpa=v01p07b1)
+  pushed origin/master: v01p07b
+  purge locale + skip-worktree: V01p07b_Base.tile, v01p07b.rsground
+  SUCCESS v01p07b (4s)
+PROCESS v01p08b (bpa=-)
+  pushed origin/master: v01p08b
+  purge locale + skip-worktree: V01p08b_Base.tile, v01p08b.rsground
+  SUCCESS v01p08b (2s)
+PROCESS v02p01a (bpa=-)
+  pushed origin/master: v02p01a
+  purge locale + skip-worktree: V02p01a_Base.tile, v02p01a.rsground
+  SUCCESS v02p01a (1s)
+PROCESS v02p02a (bpa=-)
+  pushed origin/master: v02p02a
+  purge locale + skip-worktree: V02p02a_Base.tile, v02p02a.rsground
+  SUCCESS v02p02a (1s)
+PROCESS v02p03a (bpa=-)
+  pushed origin/master: v02p03a
+  purge locale + skip-worktree: V02p03a_Base.tile, v02p03a.rsground
+  SUCCESS v02p03a (2s)
+PROCESS v02p06a (bpa=-)
+  pushed origin/master: v02p06a
+  purge locale + skip-worktree: V02p06a_Base.tile, v02p06a.rsground
+  SUCCESS v02p06a (1s)
+PROCESS v02p07a (bpa=-)
+  pushed origin/master: v02p07a
+  purge locale + skip-worktree: V02p07a_Base.tile, v02p07a.rsground
+  SUCCESS v02p07a (2s)
+PROCESS v02p08a (bpa=-)
+  pushed origin/master: v02p08a
+  purge locale + skip-worktree: V02p08a_Base.tile, v02p08a.rsground
+  SUCCESS v02p08a (1s)
+PROCESS v03p01a (bpa=-)
+  pushed origin/master: v03p01a
+  purge locale + skip-worktree: V03p01a_Base.tile, v03p01a.rsground
+  SUCCESS v03p01a (1s)
+PROCESS v03p02a (bpa=-)
+  pushed origin/master: v03p02a
+  purge locale + skip-worktree: V03p02a_Base.tile, v03p02a.rsground
+  SUCCESS v03p02a (1s)
+PROCESS v03p03a (bpa=-)
+  pushed origin/master: v03p03a
+  purge locale + skip-worktree: V03p03a_Base.tile, v03p03a.rsground
+  SUCCESS v03p03a (2s)
+PROCESS v03p04a (bpa=-)
+  pushed origin/master: v03p04a
+  purge locale + skip-worktree: V03p04a_Base.tile, v03p04a.rsground
+  SUCCESS v03p04a (1s)
+PROCESS v03p05c (bpa=-)
+  pushed origin/master: v03p05c
+  purge locale + skip-worktree: V03p05c_Base.tile, v03p05c.rsground
+  SUCCESS v03p05c (2s)
+PROCESS v03p06a (bpa=-)
+  pushed origin/master: v03p06a
+  purge locale + skip-worktree: V03p06a_Base.tile, v03p06a.rsground
+  SUCCESS v03p06a (2s)
+PROCESS v03p06b (bpa=-)
+  pushed origin/master: v03p06b
+  purge locale + skip-worktree: V03p06b_Base.tile, v03p06b.rsground
+  SUCCESS v03p06b (2s)
+PROCESS v03p07a (bpa=-)
+  pushed origin/master: v03p07a
+  purge locale + skip-worktree: V03p07a_Base.tile, v03p07a.rsground
+  SUCCESS v03p07a (2s)
+PROCESS v03p08a (bpa=-)
+  pushed origin/master: v03p08a
+  purge locale + skip-worktree: V03p08a_Base.tile, v03p08a.rsground
+  SUCCESS v03p08a (2s)
+PROCESS v03p09a (bpa=-)
+  pushed origin/master: v03p09a
+  purge locale + skip-worktree: V03p09a_Base.tile, v03p09a.rsground
+  SUCCESS v03p09a (3s)
+PROCESS v03p11a (bpa=-)
+  pushed origin/master: v03p11a
+  purge locale + skip-worktree: V03p11a_Base.tile, v03p11a.rsground
+  SUCCESS v03p11a (2s)
+PROCESS v03p12a (bpa=-)
+  pushed origin/master: v03p12a
+  purge locale + skip-worktree: V03p12a_Base.tile, v03p12a.rsground
+  SUCCESS v03p12a (2s)
+PROCESS v03p13a (bpa=-)
+  pushed origin/master: v03p13a
+  purge locale + skip-worktree: V03p13a_Base.tile, v03p13a.rsground
+  SUCCESS v03p13a (1s)
+PROCESS v04p01a (bpa=-)
+  pushed origin/master: v04p01a
+  purge locale + skip-worktree: V04p01a_Base.tile, v04p01a.rsground
+  SUCCESS v04p01a (2s)
+PROCESS v04p02a (bpa=-)
+  pushed origin/master: v04p02a
+  purge locale + skip-worktree: V04p02a_Base.tile, v04p02a.rsground
+  SUCCESS v04p02a (1s)
+PROCESS v04p03a (bpa=-)
+  pushed origin/master: v04p03a
+  purge locale + skip-worktree: V04p03a_Base.tile, v04p03a.rsground
+  SUCCESS v04p03a (1s)
+PROCESS v05p01a (bpa=-)
+  pushed origin/master: v05p01a
+  purge locale + skip-worktree: V05p01a_Base.tile, v05p01a.rsground
+  SUCCESS v05p01a (1s)
+PROCESS v05p02a (bpa=-)
+  pushed origin/master: v05p02a
+  purge locale + skip-worktree: V05p02a_Base.tile, v05p02a.rsground
+  SUCCESS v05p02a (1s)
+PROCESS v05p03a (bpa=-)
+  pushed origin/master: v05p03a
+  purge locale + skip-worktree: V05p03a_Base.tile, v05p03a.rsground
+  SUCCESS v05p03a (2s)
+PROCESS v05p05a (bpa=-)
+  pushed origin/master: v05p05a
+  purge locale + skip-worktree: V05p05a_Base.tile, v05p05a.rsground
+  SUCCESS v05p05a (1s)
+PROCESS v09p01a (bpa=-)
+  pushed origin/master: v09p01a
+  purge locale + skip-worktree: V09p01a_Base.tile, v09p01a.rsground
+  SUCCESS v09p01a (1s)
+PROCESS v09p04a (bpa=v09p04a1)
+  pushed origin/master: v09p04a
+  purge locale + skip-worktree: V09p04a_Base.tile, v09p04a.rsground
+  SUCCESS v09p04a (2s)
+PROCESS v10p01c (bpa=v10p01c1)
+  pushed origin/master: v10p01c
+  purge locale + skip-worktree: V10p01c_Base.tile, v10p01c.rsground
+  SUCCESS v10p01c (2s)
+PROCESS v10p03c (bpa=v10p03c1,v10p03c5)
+  pushed origin/master: v10p03c
+  purge locale + skip-worktree: V10p03c_Base.tile, v10p03c.rsground
+  SUCCESS v10p03c (3s)
+PROCESS v12p01a (bpa=-)
+  pushed origin/master: v12p01a
+  purge locale + skip-worktree: V12p01a_Base.tile, v12p01a.rsground
+  SUCCESS v12p01a (2s)
+PROCESS v13p01a (bpa=-)
+  pushed origin/master: v13p01a
+  purge locale + skip-worktree: V13p01a_Base.tile, v13p01a.rsground
+  SUCCESS v13p01a (1s)
+PROCESS v14p01a (bpa=-)
+  pushed origin/master: v14p01a
+  purge locale + skip-worktree: V14p01a_Base.tile, v14p01a.rsground
+  SUCCESS v14p01a (3s)
+PROCESS v14p03a (bpa=-)
+  pushed origin/master: v14p03a
+  purge locale + skip-worktree: V14p03a_Base.tile, v14p03a.rsground
+  SUCCESS v14p03a (2s)
+PROCESS v14p04a (bpa=-)
+  pushed origin/master: v14p04a
+  purge locale + skip-worktree: V14p04a_Base.tile, v14p04a.rsground
+  SUCCESS v14p04a (2s)
+PROCESS v15p01a (bpa=-)
+  pushed origin/master: v15p01a
+  purge locale + skip-worktree: V15p01a_Base.tile, v15p01a.rsground
+  SUCCESS v15p01a (2s)
+PROCESS v15p02a (bpa=v15p02a5)
+  pushed origin/master: v15p02a
+  purge locale + skip-worktree: V15p02a_Base.tile, v15p02a.rsground
+  SUCCESS v15p02a (2s)
+PROCESS v15p03a (bpa=v15p03a5)
+  pushed origin/master: v15p03a
+  purge locale + skip-worktree: V15p03a_Base.tile, v15p03a.rsground
+  SUCCESS v15p03a (2s)
+PROCESS v16p02a (bpa=v16p02a1)
+  pushed origin/master: v16p02a
+  purge locale + skip-worktree: V16p02a_Base.tile, v16p02a.rsground
+  SUCCESS v16p02a (2s)
+PROCESS v17p01a (bpa=-)
+  pushed origin/master: v17p01a
+  purge locale + skip-worktree: V17p01a_Base.tile, v17p01a.rsground
+  SUCCESS v17p01a (2s)
+PROCESS v17p02a (bpa=-)
+  pushed origin/master: v17p02a
+  purge locale + skip-worktree: V17p02a_Base.tile, v17p02a.rsground
+  SUCCESS v17p02a (2s)
+PROCESS v17p03a (bpa=-)
+  pushed origin/master: v17p03a
+  purge locale + skip-worktree: V17p03a_Base.tile, v17p03a.rsground
+  SUCCESS v17p03a (2s)
+PROCESS v19p01a (bpa=-)
+  pushed origin/master: v19p01a
+  purge locale + skip-worktree: V19p01a_Base.tile, v19p01a.rsground
+  SUCCESS v19p01a (1s)
+PROCESS v19p02a (bpa=-)
+  pushed origin/master: v19p02a
+  purge locale + skip-worktree: V19p02a_Base.tile, v19p02a.rsground
+  SUCCESS v19p02a (3s)
+PROCESS v19p03a (bpa=-)
+  pushed origin/master: v19p03a
+  purge locale + skip-worktree: V19p03a_Base.tile, v19p03a.rsground
+  SUCCESS v19p03a (2s)
+PROCESS v19p04a (bpa=-)
+  pushed origin/master: v19p04a
+  purge locale + skip-worktree: V19p04a_Base.tile, v19p04a.rsground
+  SUCCESS v19p04a (4s)
+PROCESS v19p05a (bpa=-)
+  pushed origin/master: v19p05a
+  purge locale + skip-worktree: V19p05a_Base.tile, v19p05a.rsground
+  SUCCESS v19p05a (2s)
+PROCESS v19p06a (bpa=-)
+  pushed origin/master: v19p06a
+  purge locale + skip-worktree: V19p06a_Base.tile, v19p06a.rsground
+  SUCCESS v19p06a (2s)
+PROCESS v21p01a (bpa=-)
+  pushed origin/master: v21p01a
+  purge locale + skip-worktree: V21p01a_Base.tile, v21p01a.rsground
+  SUCCESS v21p01a (1s)
+PROCESS v21p02a (bpa=-)
+  pushed origin/master: v21p02a
+  purge locale + skip-worktree: V21p02a_Base.tile, v21p02a.rsground
+  SUCCESS v21p02a (4s)
+======================================================================
+RAPPORT FINAL -> /home/user/SKY_PORT/output/export_progress.json
+{
+ "MAP_BG Conversion Report": true,
+ "Total MAP_BG": 70,
+ "Exportés": 70,
+ "Skip (déjà présents)": 0,
+ "Failed": 0,
+ "Animations": {
+  "Maps avec BPA": 17,
+  "Maps animées (>1 frame)": 29,
+  "Maps sans collision BMA (Tags=0 documenté)": 64
+ },
+ "Références invalides (bug tuiles noires)": [],
+ "Rapports dimensions": [],
+ "Liste erreurs détaillée": []
+}
+
+===== SESSION 2026-08-06 14:44:58 =====
+EXPORT 70 MAPS -> /home/user/SKY_PORT (déjà sur origin: 140)
+======================================================================
+PROCESS v21p02b (bpa=-)
+  pushed origin/master: v21p02b
+  purge locale + skip-worktree: V21p02b_Base.tile, v21p02b.rsground
+  SUCCESS v21p02b (1s)
+PROCESS v22p01a (bpa=-)
+  pushed origin/master: v22p01a
+  purge locale + skip-worktree: V22p01a_Base.tile, v22p01a.rsground
+  SUCCESS v22p01a (2s)
+PROCESS v22p02a (bpa=-)
+  pushed origin/master: v22p02a
+  purge locale + skip-worktree: V22p02a_Base.tile, v22p02a.rsground
+  SUCCESS v22p02a (2s)
+PROCESS v22p03a (bpa=-)
+  pushed origin/master: v22p03a
+  purge locale + skip-worktree: V22p03a_Base.tile, v22p03a.rsground
+  SUCCESS v22p03a (2s)
+PROCESS v23p01a (bpa=-)
+  pushed origin/master: v23p01a
+  purge locale + skip-worktree: V23p01a_Base.tile, v23p01a.rsground
+  SUCCESS v23p01a (2s)
+PROCESS v23p04a (bpa=v23p04a5)
+  pushed origin/master: v23p04a
+  purge locale + skip-worktree: V23p04a_Base.tile, v23p04a.rsground
+  SUCCESS v23p04a (2s)
+PROCESS v23p05a (bpa=-)
+  pushed origin/master: v23p05a
+  purge locale + skip-worktree: V23p05a_Base.tile, v23p05a.rsground
+  SUCCESS v23p05a (2s)
+PROCESS v24p01a (bpa=v24p01a5)
+  pushed origin/master: v24p01a
+  purge locale + skip-worktree: V24p01a_Base.tile, v24p01a.rsground
+  SUCCESS v24p01a (1s)
+PROCESS v24p02a (bpa=v24p02a5)
+  pushed origin/master: v24p02a
+  purge locale + skip-worktree: V24p02a_Base.tile, v24p02a.rsground
+  SUCCESS v24p02a (1s)
+PROCESS v24p03a (bpa=-)
+  pushed origin/master: v24p03a
+  purge locale + skip-worktree: V24p03a_Base.tile, v24p03a.rsground
+  SUCCESS v24p03a (2s)
+PROCESS v24p04a (bpa=v24p04a1,v24p04a5)
+  pushed origin/master: v24p04a
+  purge locale + skip-worktree: V24p04a_Base.tile, v24p04a.rsground
+  SUCCESS v24p04a (2s)
+PROCESS v24p05a (bpa=-)
+  pushed origin/master: v24p05a
+  purge locale + skip-worktree: V24p05a_Base.tile, v24p05a.rsground
+  SUCCESS v24p05a (3s)
+PROCESS v24p06a (bpa=-)
+  pushed origin/master: v24p06a
+  purge locale + skip-worktree: V24p06a_Base.tile, v24p06a.rsground
+  SUCCESS v24p06a (1s)
+PROCESS v24p07a (bpa=-)
+  pushed origin/master: v24p07a
+  purge locale + skip-worktree: V24p07a_Base.tile, v24p07a.rsground
+  SUCCESS v24p07a (1s)
+PROCESS v24p08a (bpa=-)
+  pushed origin/master: v24p08a
+  purge locale + skip-worktree: V24p08a_Base.tile, v24p08a.rsground
+  SUCCESS v24p08a (4s)
+PROCESS v24p09a (bpa=v24p09a1)
+  pushed origin/master: v24p09a
+  purge locale + skip-worktree: V24p09a_Base.tile, v24p09a.rsground
+  SUCCESS v24p09a (2s)
+PROCESS v25p01a (bpa=-)
+  pushed origin/master: v25p01a
+  purge locale + skip-worktree: V25p01a_Base.tile, v25p01a.rsground
+  SUCCESS v25p01a (2s)
+PROCESS v25p02a (bpa=-)
+  pushed origin/master: v25p02a
+  purge locale + skip-worktree: V25p02a_Base.tile, v25p02a.rsground
+  SUCCESS v25p02a (1s)
+PROCESS v25p03a (bpa=-)
+  pushed origin/master: v25p03a
+  purge locale + skip-worktree: V25p03a_Base.tile, v25p03a.rsground
+  SUCCESS v25p03a (2s)
+PROCESS v25p04a (bpa=-)
+  pushed origin/master: v25p04a
+  purge locale + skip-worktree: V25p04a_Base.tile, v25p04a.rsground
+  SUCCESS v25p04a (2s)
+PROCESS v26p01a (bpa=-)
+  pushed origin/master: v26p01a
+  purge locale + skip-worktree: V26p01a_Base.tile, v26p01a.rsground
+  SUCCESS v26p01a (3s)
+PROCESS v26p02a (bpa=-)
+  pushed origin/master: v26p02a
+  purge locale + skip-worktree: V26p02a_Base.tile, v26p02a.rsground
+  SUCCESS v26p02a (2s)
+PROCESS v26p03a (bpa=-)
+  pushed origin/master: v26p03a
+  purge locale + skip-worktree: V26p03a_Base.tile, v26p03a.rsground
+  SUCCESS v26p03a (3s)
+PROCESS v26p04a (bpa=-)
+  pushed origin/master: v26p04a
+  purge locale + skip-worktree: V26p04a_Base.tile, v26p04a.rsground
+  SUCCESS v26p04a (2s)
+PROCESS v26p05a (bpa=-)
+  pushed origin/master: v26p05a
+  purge locale + skip-worktree: V26p05a_Base.tile, v26p05a.rsground
+  SUCCESS v26p05a (4s)
+PROCESS v26p06a (bpa=-)
+  pushed origin/master: v26p06a
+  purge locale + skip-worktree: V26p06a_Base.tile, v26p06a.rsground
+  SUCCESS v26p06a (2s)
+PROCESS v26p07a (bpa=-)
+  pushed origin/master: v26p07a
+  purge locale + skip-worktree: V26p07a_Base.tile, v26p07a.rsground
+  SUCCESS v26p07a (2s)
+PROCESS v26p09a (bpa=v26p09a1)
+  pushed origin/master: v26p09a
+  purge locale + skip-worktree: V26p09a_Base.tile, v26p09a.rsground
+  SUCCESS v26p09a (2s)
+PROCESS v26p10a (bpa=-)
+  pushed origin/master: v26p10a
+  purge locale + skip-worktree: V26p10a_Base.tile, v26p10a.rsground
+  SUCCESS v26p10a (7s)
+PROCESS v26p11a (bpa=-)
+  pushed origin/master: v26p11a
+  purge locale + skip-worktree: V26p11a_Base.tile, v26p11a.rsground
+  SUCCESS v26p11a (1s)
+PROCESS v26p11a2 (bpa=-)
+  pushed origin/master: v26p11a2
+  purge locale + skip-worktree: V26p11a2_Base.tile, v26p11a2.rsground
+  SUCCESS v26p11a2 (2s)
+PROCESS v26p11a3 (bpa=-)
+  pushed origin/master: v26p11a3
+  purge locale + skip-worktree: V26p11a3_Base.tile, v26p11a3.rsground
+  SUCCESS v26p11a3 (1s)
+PROCESS v26p11a4 (bpa=-)
+  pushed origin/master: v26p11a4
+  purge locale + skip-worktree: V26p11a4_Base.tile, v26p11a4.rsground
+  SUCCESS v26p11a4 (1s)
+PROCESS v26p11a5 (bpa=-)
+  pushed origin/master: v26p11a5
+  purge locale + skip-worktree: V26p11a5_Base.tile, v26p11a5.rsground
+  SUCCESS v26p11a5 (1s)
+PROCESS v28p01a (bpa=-)
+  pushed origin/master: v28p01a
+  purge locale + skip-worktree: V28p01a_Base.tile, v28p01a.rsground
+  SUCCESS v28p01a (2s)
+PROCESS v31p01a (bpa=-)
+  pushed origin/master: v31p01a
+  purge locale + skip-worktree: V31p01a_Base.tile, v31p01a.rsground
+  SUCCESS v31p01a (1s)
+PROCESS v31p02a (bpa=-)
+  pushed origin/master: v31p02a
+  purge locale + skip-worktree: V31p02a_Base.tile, v31p02a.rsground
+  SUCCESS v31p02a (1s)
+PROCESS v32p01a (bpa=-)
+  pushed origin/master: v32p01a
+  purge locale + skip-worktree: V32p01a_Base.tile, v32p01a.rsground
+  SUCCESS v32p01a (1s)
+PROCESS v33p01a (bpa=-)
+  pushed origin/master: v33p01a
+  purge locale + skip-worktree: V33p01a_Base.tile, v33p01a.rsground
+  SUCCESS v33p01a (3s)
+PROCESS v34p01a (bpa=-)
+  pushed origin/master: v34p01a
+  purge locale + skip-worktree: V34p01a_Base.tile, v34p01a.rsground
+  SUCCESS v34p01a (1s)
+PROCESS v37p01a (bpa=-)
+  pushed origin/master: v37p01a
+  purge locale + skip-worktree: V37p01a_Base.tile, v37p01a.rsground
+  SUCCESS v37p01a (1s)
+PROCESS v37p02a (bpa=-)
+  pushed origin/master: v37p02a
+  purge locale + skip-worktree: V37p02a_Base.tile, v37p02a.rsground
+  SUCCESS v37p02a (2s)
+PROCESS v37p03a (bpa=-)
+  pushed origin/master: v37p03a
+  purge locale + skip-worktree: V37p03a_Base.tile, v37p03a.rsground
+  SUCCESS v37p03a (2s)
+PROCESS v38p01a (bpa=-)
+  pushed origin/master: v38p01a
+  purge locale + skip-worktree: V38p01a_Base.tile, v38p01a.rsground
+  SUCCESS v38p01a (1s)
+PROCESS v38p02a (bpa=-)
+  pushed origin/master: v38p02a
+  purge locale + skip-worktree: V38p02a_Base.tile, v38p02a.rsground
+  SUCCESS v38p02a (1s)
+PROCESS v38p03a (bpa=-)
+  pushed origin/master: v38p03a
+  purge locale + skip-worktree: V38p03a_Base.tile, v38p03a.rsground
+  SUCCESS v38p03a (2s)
+PROCESS v38p04a (bpa=-)
+  pushed origin/master: v38p04a
+  purge locale + skip-worktree: V38p04a_Base.tile, v38p04a.rsground
+  SUCCESS v38p04a (2s)
+PROCESS v38p05a (bpa=-)
+  pushed origin/master: v38p05a
+  purge locale + skip-worktree: V38p05a_Base.tile, v38p05a.rsground
+  SUCCESS v38p05a (1s)
+PROCESS v38p06a (bpa=-)
+  pushed origin/master: v38p06a
+  purge locale + skip-worktree: V38p06a_Base.tile, v38p06a.rsground
+  SUCCESS v38p06a (6s)
+PROCESS v38p06c (bpa=-)
+  pushed origin/master: v38p06c
+  purge locale + skip-worktree: V38p06c_Base.tile, v38p06c.rsground
+  SUCCESS v38p06c (2s)
+PROCESS v38p06d (bpa=-)
+  pushed origin/master: v38p06d
+  purge locale + skip-worktree: V38p06d_Base.tile, v38p06d.rsground
+  SUCCESS v38p06d (2s)
+PROCESS v38p07a (bpa=-)
+  pushed origin/master: v38p07a
+  purge locale + skip-worktree: V38p07a_Base.tile, v38p07a.rsground
+  SUCCESS v38p07a (2s)
+PROCESS v38p08a (bpa=-)
+  pushed origin/master: v38p08a
+  purge locale + skip-worktree: V38p08a_Base.tile, v38p08a.rsground
+  SUCCESS v38p08a (2s)
+PROCESS v38p09a (bpa=-)
+  pushed origin/master: v38p09a
+  purge locale + skip-worktree: V38p09a_Base.tile, v38p09a.rsground
+  SUCCESS v38p09a (2s)
+PROCESS v38p10a (bpa=-)
+  pushed origin/master: v38p10a
+  purge locale + skip-worktree: V38p10a_Base.tile, v38p10a.rsground
+  SUCCESS v38p10a (2s)
+PROCESS v38p11a (bpa=-)
+  pushed origin/master: v38p11a
+  purge locale + skip-worktree: V38p11a_Base.tile, v38p11a.rsground
+  SUCCESS v38p11a (2s)
+PROCESS v39p01a (bpa=-)
+  pushed origin/master: v39p01a
+  purge locale + skip-worktree: V39p01a_Base.tile, v39p01a.rsground
+  SUCCESS v39p01a (1s)
+PROCESS v39p02a (bpa=-)
+  pushed origin/master: v39p02a
+  purge locale + skip-worktree: V39p02a_Base.tile, v39p02a.rsground
+  SUCCESS v39p02a (1s)
+PROCESS v39p03a (bpa=-)
+  pushed origin/master: v39p03a
+  purge locale + skip-worktree: V39p03a_Base.tile, v39p03a.rsground
+  SUCCESS v39p03a (2s)
+PROCESS w00 (bpa=-)
+  pushed origin/master: w00
+  purge locale + skip-worktree: W00_Base.tile, w00.rsground
+  SUCCESS w00 (3s)
+PROCESS w01a (bpa=-)
+  pushed origin/master: w01a
+  purge locale + skip-worktree: W01a_Base.tile, w01a.rsground
+  SUCCESS w01a (3s)
+PROCESS w01b (bpa=-)
+  pushed origin/master: w01b
+  purge locale + skip-worktree: W01b_Base.tile, w01b.rsground
+  SUCCESS w01b (2s)
+PROCESS w02a (bpa=-)
+  pushed origin/master: w02a
+  purge locale + skip-worktree: W02a_Base.tile, w02a.rsground
+  SUCCESS w02a (2s)
+PROCESS w02b (bpa=-)
+  pushed origin/master: w02b
+  purge locale + skip-worktree: W02b_Base.tile, w02b.rsground
+  SUCCESS w02b (2s)
+PROCESS w03a (bpa=-)
+  pushed origin/master: w03a
+  purge locale + skip-worktree: W03a_Base.tile, w03a.rsground
+  SUCCESS w03a (1s)
+PROCESS w03b (bpa=-)
+  pushed origin/master: w03b
+  purge locale + skip-worktree: W03b_Base.tile, w03b.rsground
+  SUCCESS w03b (1s)
+PROCESS w04a (bpa=-)
+  pushed origin/master: w04a
+  purge locale + skip-worktree: W04a_Base.tile, w04a.rsground
+  SUCCESS w04a (1s)
+PROCESS w04b (bpa=-)
+  pushed origin/master: w04b
+  purge locale + skip-worktree: W04b_Base.tile, w04b.rsground
+  SUCCESS w04b (2s)
+PROCESS w05a (bpa=-)
+  pushed origin/master: w05a
+  purge locale + skip-worktree: W05a_Base.tile, w05a.rsground
+  SUCCESS w05a (1s)
+PROCESS w05b (bpa=-)

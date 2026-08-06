@@ -1,0 +1,20 @@
+<!-- RogueElements FloorPlan / PMDO Dungeon Pack Generator -->
+<!-- Source: PMD Sky (NDS) - SPACIAL_RIFT -->
+<FloorPlan>
+  <Name>Spacial Rift</Name>
+  <Floors>15</Floors>
+  <Spawns>
+    <MobSpawn>
+      <Species>drowzee</Species>
+      <Rate>10</Rate>
+    </MobSpawn>
+    <MobSpawn>
+      <Species>xatu</Species>
+      <Rate>10</Rate>
+    </MobSpawn>
+    <MobSpawn>
+      <Species>gallade</Species>
+      <Rate>10</Rate>
+    </MobSpawn>
+  </Spawns>
+</FloorPlan>
