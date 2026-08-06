@@ -4,13 +4,13 @@
   "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
   "TexSize": 1,
   "Name": {
-   "DefaultText": "D57P43A",
+   "DefaultText": "Regirock Chamber 4",
    "LocalTexts": {
-    "fr": "D57P43A"
+    "fr": "Chambre de Regirock 4"
    }
   },
   "Released": false,
-  "Comment": "PMD Sky (NDS) MAP_BG d57p43a/d57p43a/d57p43a -> d57p43a. Rendered pixel-perfect via skytemple-files (bma.to_pil), 84 frame(s), aucun BPA. No BMA collision layer available. No artificial collision generated. Source: pret/pmd-sky files/MAP_BG.",
+  "Comment": "PMD Sky (NDS) MAP_BG d57p43a/d57p43a/d57p43a -> d57p43a. Rendered pixel-perfect via skytemple-files (bma.to_pil), 84 frame(s), aucun BPA. No BMA collision layer available. No artificial collision generated. Source: pret/pmd-sky files/MAP_BG. Canonical name: Regirock Chamber 4 (source pret/pmd-sky/include/enums.h).",
   "obstacles": [
    [
     {
@@ -221136,7 +221136,7 @@
     ]
    }
   ],
-  "AssetName": "d57p43a",
+  "AssetName": "aegis_cave_regirock_4",
   "Music": "",
   "EdgeView": 1,
   "NoSwitching": false,
