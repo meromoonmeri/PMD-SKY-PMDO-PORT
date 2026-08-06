@@ -239,3 +239,7 @@ PROCESS s17p02a (bpa=-)
   purge locale + skip-worktree: S17p02a_Base.tile, s17p02a.rsground
   SUCCESS s17p02a (1s)
 PROCESS s20p01a (bpa=-)
+  pushed origin/master: s20p01a
+  purge locale + skip-worktree: S20p01a_Base.tile, s20p01a.rsground
+  SUCCESS s20p01a (1s)
+PROCESS s21p01a (bpa=-)
