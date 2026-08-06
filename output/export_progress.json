@@ -1,6 +1,6 @@
 {
  "total": 70,
- "exported": 20,
+ "exported": 21,
  "already": 0,
  "failed": [],
  "invalid_refs": [],
@@ -18,7 +18,8 @@
   "v01p05b",
   "v01p06b",
   "v01p07b",
-  "v01p08b"
+  "v01p08b",
+  "v02p01a"
  ],
  "animated": [
   "t00p02",
