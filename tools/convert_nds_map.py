@@ -16,13 +16,24 @@ avec skytemple-files, puis les convertit en assets RogueEssence :
             - Main_Entrance_Marker au centre de la zone marchable
             - AssetName = nom du fichier (règle New Era)
 
-Le rendu est FAIT PAR LE MOTEUR de skytemple-files (bma.to_pil) : c'est
-exactement l'image affichée par le jeu, aucune transformation spatiale.
+CORRECTION BUG DES TUILES NOIRES (BPA) :
+Le .bma référence parfois des IDs de tuiles "hors limites" du tileset de base
+(ex: tuile 690 alors que le .bpc n'en contient que 682). Ces tuiles
+supplémentaires sont injectées dynamiquement en VRAM par les fichiers
+d'animation .BPA (eau, lave, drapeaux). Ce convertisseur :
+  1. détecte les .bpa associés à la carte ;
+  2. lit leur en-tête (nombre de frames, tuiles par frame) ;
+  3. construit la liste bg_list des 8 slots (4 pour layer 0, 4 pour layer 1)
+     en plaçant chaque BPA dans le slot dont la taille attendue (bpc.layers
+     [L].bpas[i]) correspond ;
+  4. bma.to_pil(bpc, bpl, slots) concatène alors les tuiles du BPA à la fin
+     du tileset de base à chaque frame -> plus aucune tuile noire ;
+  5. chaque frame d'animation est rendue en PNG distinct ;
+  6. le tout est compressé en un .tile multicouche + .rsground avec
+     FrameLength (10 si animé, 60 sinon).
 
 Usage :
-  python3 tools/convert_nds_map.py <bpl> <bpc> <bma> <asset_name> [--bpa <f>] [--fr <Nom FR>]
-Exemple :
-  python3 tools/convert_nds_map.py d42p41a d42p41a d42p41a aegis_cave_boss --fr "Aegis Cave Boss Arena"
+  python3 tools/convert_nds_map.py <bpl> <bpc> <bma> <asset_name> [--bpa a,b] [--fr "Nom FR"]
 """
 import io
 import json
@@ -80,7 +91,6 @@ def write_tile_file(img_frames, out_path, tile_size=8):
     for png in uniq_order:
         out += struct.pack('<Q', len(png)) + png
     open(out_path, 'wb').write(bytes(out))
-    # convertit les index en positions (px,py) de la planche
     per_frame_pos = [[(idx % pwidth, idx // pwidth) for idx in fc]
                      for fc in per_frame]
     return per_frame_pos, n
@@ -172,22 +182,32 @@ def make_rsground(name, name_fr, comment, sheet, W, H, collision, per_frame,
         json.dump(d, f, ensure_ascii=False, indent=1)
 
 
-def convert(bpl, bpc, bma, asset, name_fr, bpa=None):
+def convert(bpl, bpc, bma, asset, name_fr, bpa_files=None):
     bma_obj = FileType.BMA.deserialize(open(f'{BASE}/{bma}.bma', 'rb').read())
     bpc_obj = FileType.BPC.deserialize(open(f'{BASE}/{bpc}.bpc', 'rb').read())
     bpl_obj = FileType.BPL.deserialize(open(f'{BASE}/{bpl}.bpl', 'rb').read())
-    bpas = []
-    if bpa:
-        bpas.append(FileType.BPA.deserialize(open(f'{BASE}/{bpa}.bpa', 'rb').read()))
-    frames = bma_obj.to_pil(bpc_obj, bpl_obj, bpas, include_collision=False)
+
+    # --- BPA : tuiles injectees dynamiquement (animation eau/lave/drapeaux) ---
+    bpas_obj = []
+    for b in (bpa_files or []):
+        bpas_obj.append(FileType.BPA.deserialize(open(f'{BASE}/{b}.bpa', 'rb').read()))
+    slots = [None] * 8
+    for L in range(min(2, len(bpc_obj.layers))):
+        expected = bpc_obj.layers[L].bpas
+        for i, need in enumerate(expected[:4]):
+            if need > 0:
+                for bpa in bpas_obj:
+                    if bpa.number_of_tiles == need and slots[L*4 + i] is None:
+                        slots[L*4 + i] = bpa
+                        break
+    frames = bma_obj.to_pil(bpc_obj, bpl_obj, slots, include_collision=False,
+                            include_unknown_data_block=False, pal_ani=True)
 
     W = bma_obj.map_width_camera
     H = bma_obj.map_height_camera
     coll = bma_obj.collision
     derived = coll is None
     if coll is None:
-        # Pas de couche collision dans le .bma (motif de base) : dérivation
-        # documentée — tuile 8x8 entièrement noire = bloquée, sinon libre.
         img0 = frames[0].convert('RGB')
         px = img0.load()
         coll = []
@@ -200,20 +220,32 @@ def convert(bpl, bpc, bma, asset, name_fr, bpa=None):
     if len(collision) != W * H:
         collision = collision + [True] * (W * H - len(collision))
 
+    # --- Contrôle anti-tuiles-noires ---
+    black_cells = 0
+    for fr in frames:
+        fr_rgb = fr.convert('RGB')
+        px = fr_rgb.load()
+        black_cells = max(black_cells, sum(
+            1 for y in range(H) for x in range(W)
+            if px[x*8, y*8] == (0, 0, 0)))
+    n_frame = len(frames)
+
     sheet = ''.join(p.capitalize() for p in asset.split('_')) + '_Base'
     per_frame, n_uniq = write_tile_file(frames, f'output/Tiles/{sheet}.tile')
+    bpa_note = (f'{len(bpas_obj)} BPA(s) injecté(s) ({", ".join(bpa_files or [])})'
+                if bpas_obj else 'aucun BPA')
     comment = (f'PMD Sky (NDS) MAP_BG {bpl}/{bpc}/{bma} -> {asset}. '
                f'Rendered pixel-perfect via skytemple-files (bma.to_pil), '
-               f'{len(frames)} frame(s) d\'animation, collision BMA d\'origine. '
+               f'{n_frame} frame(s), {bpa_note}, collision BMA d\'origine. '
                f'Source: pret/pmd-sky files/MAP_BG.')
     make_rsground(asset, name_fr, comment, sheet, W, H, collision, per_frame,
                   f'output/Grounds/{asset}.rsground')
-    # statistiques
     walk = sum(1 for c in collision if not c)
-    print(f'{bma} -> {asset:24s} {W}x{H} tuiles, {len(frames)} frame(s), '
-          f'tuiles planche={n_uniq}u, libre={walk}/{W*H}')
-    return {'src': bma, 'asset': asset, 'W': W, 'H': H, 'frames': len(frames),
-            'tiles': n_uniq, 'walk': walk, 'total': W * H}
+    print(f'{bma} -> {asset:26s} {W}x{H} tuiles, {n_frame} frame(s), '
+          f'tuiles planche={n_uniq}u, libre={walk}/{W*H}, noires={black_cells}')
+    return {'src': bma, 'asset': asset, 'W': W, 'H': H, 'frames': n_frame,
+            'tiles': n_uniq, 'walk': walk, 'total': W * H, 'black': black_cells,
+            'bpas': bpa_files or []}
 
 
 if __name__ == '__main__':
@@ -223,9 +255,9 @@ if __name__ == '__main__':
     bma = args[2] if len(args) > 2 else bpl
     asset = args[3] if len(args) > 3 else bpl.lower()
     name_fr = asset
-    bpa = None
+    bpa_files = None
     if '--bpa' in args:
-        bpa = args[args.index('--bpa') + 1]
+        bpa_files = args[args.index('--bpa') + 1].split(',')
     if '--fr' in args:
         name_fr = args[args.index('--fr') + 1]
-    convert(bpl, bpc, bma, asset, name_fr, bpa)
+    convert(bpl, bpc, bma, asset, name_fr, bpa_files)
