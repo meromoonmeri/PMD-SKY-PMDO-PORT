@@ -1,6 +1,6 @@
 {
  "total": 70,
- "exported": 36,
+ "exported": 37,
  "already": 0,
  "failed": [],
  "invalid_refs": [],
@@ -39,7 +39,8 @@
   "s11p02b",
   "s11p02c2",
   "s11p02c3",
-  "s11p02c4"
+  "s11p02c4",
+  "s11p02c5"
  ],
  "animated": [
   "p28p01a",
