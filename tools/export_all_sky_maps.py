@@ -107,7 +107,7 @@ def main():
         entries = [(m, b) for m, b in allmaps if m not in ALREADY_EXPORTED]
     print(f'EXPORT {len(entries)} MAPS -> {REPO} (déjà sur origin: {len(on_origin)})')
     print('=' * 70)
-    results, skipped, black_list = [], [], []
+    results, skipped, invalid_list = [], [], []
     for m, bpas in entries:
         asset = m.lower()
         if asset in on_origin and not force:
@@ -116,18 +116,19 @@ def main():
             continue
         print(f'--- {m} (bpa={",".join(bpas) if bpas else "-"}) ---')
         info = convert(m, m, m, asset, asset.upper(), bpas)
-        if info['black'] > 0:
-            black_list.append((m, info['black']))
+        if info['invalid'] > 0:
+            invalid_list.append((m, info['invalid']))
         save_and_purge(m, info)
         results.append(info)
     print('=' * 70)
     print(f'{len(results)} cartes exportées ce run (+{len(skipped)} déjà faites)')
-    if black_list:
-        print(f'⚠ {len(black_list)} carte(s) avec tuiles noires restantes:')
-        for m, n in black_list:
-            print(f'  !! {m}: {n} cellules noires')
+    if invalid_list:
+        print(f'⚠ {len(invalid_list)} carte(s) avec RÉFÉRENCES INVALIDES '
+              f'(tuiles noires bug) restantes:')
+        for m, n in invalid_list:
+            print(f'  !! {m}: {n} invalid refs')
     else:
-        print('✔ 0 carte avec tuiles noires')
+        print('✔ 0 référence invalide (bug tuiles noires éliminé)')
 
 
 if __name__ == '__main__':

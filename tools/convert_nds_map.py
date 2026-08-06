@@ -40,6 +40,7 @@ import json
 import os
 import struct
 import sys
+import contextlib
 
 from skytemple_files.common.types.file_types import FileType
 
@@ -200,8 +201,15 @@ def convert(bpl, bpc, bma, asset, name_fr, bpa_files=None):
                     if bpa.number_of_tiles == need and slots[L*4 + i] is None:
                         slots[L*4 + i] = bpa
                         break
-    frames = bma_obj.to_pil(bpc_obj, bpl_obj, slots, include_collision=False,
-                            include_unknown_data_block=False, pal_ani=True)
+    # Le signal EXACT du bug des tuiles noires : les "invalid tile reference"
+    # de skytemple (= IDs hors limites du tileset de base, résolus par BPA).
+    # Un fond noir LÉGITIME (grotte sombre) ne produit AUCUN invalid ref.
+    errbuf = io.StringIO()
+    with contextlib.redirect_stderr(errbuf):
+        frames = bma_obj.to_pil(bpc_obj, bpl_obj, slots, include_collision=False,
+                                include_unknown_data_block=False, pal_ani=True)
+    n_invalid = sum(1 for l in errbuf.getvalue().splitlines()
+                    if 'invalid tile' in l)
 
     W = bma_obj.map_width_camera
     H = bma_obj.map_height_camera
@@ -242,10 +250,11 @@ def convert(bpl, bpc, bma, asset, name_fr, bpa_files=None):
                   f'output/Grounds/{asset}.rsground')
     walk = sum(1 for c in collision if not c)
     print(f'{bma} -> {asset:26s} {W}x{H} tuiles, {n_frame} frame(s), '
-          f'tuiles planche={n_uniq}u, libre={walk}/{W*H}, noires={black_cells}')
+          f'tuiles planche={n_uniq}u, libre={walk}/{W*H}, '
+          f'invalid_refs={n_invalid}, noires={black_cells}')
     return {'src': bma, 'asset': asset, 'W': W, 'H': H, 'frames': n_frame,
             'tiles': n_uniq, 'walk': walk, 'total': W * H, 'black': black_cells,
-            'bpas': bpa_files or []}
+            'invalid': n_invalid, 'bpas': bpa_files or []}
 
 
 if __name__ == '__main__':
