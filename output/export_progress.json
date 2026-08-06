@@ -1,6 +1,6 @@
 {
  "total": 452,
- "exported": 45,
+ "exported": 46,
  "already": 118,
  "failed": [],
  "invalid_refs": [],
@@ -23,7 +23,8 @@
   "d69p41a",
   "d70p41a",
   "d72p41a",
-  "d73p41a"
+  "d73p41a",
+  "d79p41a"
  ],
  "animated": [
   "d53p41b",
