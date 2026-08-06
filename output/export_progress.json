@@ -1,11 +1,12 @@
 {
  "total": 70,
- "exported": 1,
+ "exported": 2,
  "already": 0,
  "failed": [],
  "invalid_refs": [],
  "collision_absent": [
-  "p24p01a"
+  "p24p01a",
+  "p25p01a"
  ],
  "animated": [],
  "with_bpa": [],
