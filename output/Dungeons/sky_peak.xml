@@ -1,0 +1,20 @@
+<!-- RogueElements FloorPlan / PMDO Dungeon Pack Generator -->
+<!-- Source: PMD Sky (NDS) - SKY_PEAK -->
+<FloorPlan>
+  <Name>Sky Peak</Name>
+  <Floors>10</Floors>
+  <Spawns>
+    <MobSpawn>
+      <Species>staravia</Species>
+      <Rate>10</Rate>
+    </MobSpawn>
+    <MobSpawn>
+      <Species>gligar</Species>
+      <Rate>10</Rate>
+    </MobSpawn>
+    <MobSpawn>
+      <Species>jumpluff</Species>
+      <Rate>10</Rate>
+    </MobSpawn>
+  </Spawns>
+</FloorPlan>

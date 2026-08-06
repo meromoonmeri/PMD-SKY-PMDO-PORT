@@ -1,0 +1,12 @@
+{
+  "$type": "PMDC.Data.ItemData, PMDC",
+  "Name": {
+    "DefaultText": "Seven Treasures",
+    "LocalTexts": {}
+  },
+  "Price": 5000,
+  "MaxStack": 1,
+  "Released": true,
+  "Comment": "Sky Exclusive Item auto-extracted (ID: 202)",
+  "Icon": 50
+}
