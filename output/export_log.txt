@@ -599,3 +599,28 @@ PROCESS v21p01a (bpa=-)
   purge locale + skip-worktree: V21p01a_Base.tile, v21p01a.rsground
   SUCCESS v21p01a (1s)
 PROCESS v21p02a (bpa=-)
+  pushed origin/master: v21p02a
+  purge locale + skip-worktree: V21p02a_Base.tile, v21p02a.rsground
+  SUCCESS v21p02a (4s)
+======================================================================
+RAPPORT FINAL -> /home/user/SKY_PORT/output/export_progress.json
+{
+ "MAP_BG Conversion Report": true,
+ "Total MAP_BG": 70,
+ "Exportés": 70,
+ "Skip (déjà présents)": 0,
+ "Failed": 0,
+ "Animations": {
+  "Maps avec BPA": 17,
+  "Maps animées (>1 frame)": 29,
+  "Maps sans collision BMA (Tags=0 documenté)": 64
+ },
+ "Références invalides (bug tuiles noires)": [],
+ "Rapports dimensions": [],
+ "Liste erreurs détaillée": []
+}
+
+===== SESSION 2026-08-06 14:44:58 =====
+EXPORT 70 MAPS -> /home/user/SKY_PORT (déjà sur origin: 140)
+======================================================================
+PROCESS v21p02b (bpa=-)
