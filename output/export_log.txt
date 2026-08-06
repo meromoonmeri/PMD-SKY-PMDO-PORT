@@ -157,3 +157,7 @@ PROCESS d56p11a (bpa=-)
   purge locale + skip-worktree: D56p11a_Base.tile, d56p11a.rsground
   SUCCESS d56p11a (2s)
 PROCESS d56p12a (bpa=-)
+  pushed origin/master: d56p12a
+  purge locale + skip-worktree: D56p12a_Base.tile, d56p12a.rsground
+  SUCCESS d56p12a (2s)
+PROCESS d56p21a (bpa=-)
