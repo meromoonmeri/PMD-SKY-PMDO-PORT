@@ -1,12 +1,13 @@
 {
  "total": 452,
- "exported": 3,
+ "exported": 4,
  "already": 118,
  "failed": [],
  "invalid_refs": [],
  "collision_absent": [
   "d53p41b",
-  "d53p41c"
+  "d53p41c",
+  "d54p31a"
  ],
  "animated": [
   "d53p41b"
