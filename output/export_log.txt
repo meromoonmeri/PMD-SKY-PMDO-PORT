@@ -523,3 +523,7 @@ PROCESS v10p03c (bpa=v10p03c1,v10p03c5)
   purge locale + skip-worktree: V10p03c_Base.tile, v10p03c.rsground
   SUCCESS v10p03c (3s)
 PROCESS v12p01a (bpa=-)
+  pushed origin/master: v12p01a
+  purge locale + skip-worktree: V12p01a_Base.tile, v12p01a.rsground
+  SUCCESS v12p01a (2s)
+PROCESS v13p01a (bpa=-)
