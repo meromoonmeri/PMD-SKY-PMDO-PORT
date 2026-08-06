@@ -3,3 +3,7 @@
 EXPORT 70 MAPS -> /home/user/SKY_PORT (déjà sur origin: 255)
 ======================================================================
 PROCESS p24p01a (bpa=-)
+  pushed origin/master: p24p01a
+  purge locale + skip-worktree: P24p01a_Base.tile, p24p01a.rsground
+  SUCCESS p24p01a (42s)
+PROCESS p25p01a (bpa=-)
