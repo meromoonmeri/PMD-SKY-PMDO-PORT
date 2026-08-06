@@ -10,7 +10,7 @@
    }
   },
   "Released": false,
-  "Comment": "PMD Sky (NDS) MAP_BG d28p32a/d28p32a/d28p32a -> d28p32a. Rendered pixel-perfect via skytemple-files (bma.to_pil), 1 frame(s), aucun BPA, collision BMA d'origine. Source: pret/pmd-sky files/MAP_BG.",
+  "Comment": "PMD Sky (NDS) MAP_BG d28p32a/d28p32a/d28p32a -> d28p32a. Rendered pixel-perfect via skytemple-files (bma.to_pil), 1 frame(s), aucun BPA. No BMA collision layer available. No artificial collision generated. Source: pret/pmd-sky files/MAP_BG.",
   "obstacles": [
    [
     {
@@ -5116,7 +5116,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5125,7 +5125,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5134,7 +5134,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5143,7 +5143,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5152,7 +5152,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5161,7 +5161,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5170,7 +5170,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5179,7 +5179,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5188,7 +5188,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5197,7 +5197,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5206,7 +5206,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5215,7 +5215,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5224,7 +5224,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5233,7 +5233,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5242,7 +5242,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5604,7 +5604,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5613,7 +5613,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5622,7 +5622,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5631,7 +5631,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5640,7 +5640,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5649,7 +5649,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5658,7 +5658,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5667,7 +5667,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5676,7 +5676,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5685,7 +5685,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5694,7 +5694,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5703,7 +5703,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5712,7 +5712,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5721,7 +5721,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -5730,7 +5730,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6092,7 +6092,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6101,7 +6101,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6110,7 +6110,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6119,7 +6119,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6128,7 +6128,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6137,7 +6137,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6146,7 +6146,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6155,7 +6155,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6164,7 +6164,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6173,7 +6173,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6182,7 +6182,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6191,7 +6191,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6200,7 +6200,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6209,7 +6209,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6218,7 +6218,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6580,7 +6580,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6589,7 +6589,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6598,7 +6598,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6607,7 +6607,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6616,7 +6616,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6625,7 +6625,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6634,7 +6634,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6643,7 +6643,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6652,7 +6652,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6661,7 +6661,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6670,7 +6670,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6679,7 +6679,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6688,7 +6688,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6697,7 +6697,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -6706,7 +6706,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7068,7 +7068,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7077,7 +7077,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7086,7 +7086,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7095,7 +7095,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7104,7 +7104,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7113,7 +7113,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7122,7 +7122,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7131,7 +7131,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7140,7 +7140,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7149,7 +7149,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7158,7 +7158,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7167,7 +7167,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7176,7 +7176,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7185,7 +7185,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7194,7 +7194,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7556,7 +7556,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7565,7 +7565,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7574,7 +7574,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7583,7 +7583,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7592,7 +7592,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7601,7 +7601,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7610,7 +7610,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7619,7 +7619,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7628,7 +7628,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7637,7 +7637,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7646,7 +7646,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7655,7 +7655,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7664,7 +7664,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7673,7 +7673,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
@@ -7682,7 +7682,7 @@
       "Width": 8,
       "Height": 8
      },
-     "Tags": 1
+     "Tags": 0
     },
     {
      "Bounds": {
