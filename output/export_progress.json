@@ -1,15 +1,19 @@
 {
  "total": 70,
- "exported": 1,
+ "exported": 2,
  "already": 0,
  "failed": [],
  "invalid_refs": [],
- "collision_absent": [],
+ "collision_absent": [
+  "t00p03"
+ ],
  "animated": [
-  "t00p02"
+  "t00p02",
+  "t00p03"
  ],
  "with_bpa": [
-  "t00p02"
+  "t00p02",
+  "t00p03"
  ],
  "dims_reports": []
 }
