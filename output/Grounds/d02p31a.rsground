@@ -10,7 +10,7 @@
    }
   },
   "Released": false,
-  "Comment": "PMD Sky (NDS) MAP_BG d02p31a/d02p31a/d02p31a -> d02p31a. Rendered pixel-perfect via skytemple-files (bma.to_pil), 5 frame(s), 1 BPA(s) injecté(s) (d02p31a5), collision BMA d'origine. Source: pret/pmd-sky files/MAP_BG.",
+  "Comment": "PMD Sky (NDS) MAP_BG d02p31a/d02p31a/d02p31a -> d02p31a. Rendered pixel-perfect via skytemple-files (bma.to_pil), 5 frame(s), 1 BPA(s) injecté(s) (d02p31a5). No BMA collision layer available. No artificial collision generated. Source: pret/pmd-sky files/MAP_BG.",
   "obstacles": [
    [
     {

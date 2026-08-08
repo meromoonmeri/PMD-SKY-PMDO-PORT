@@ -10,7 +10,7 @@
    }
   },
   "Released": false,
-  "Comment": "PMD Sky (NDS) MAP_BG d01p11b/d01p11b/d01p11b -> d01p11b. Rendered pixel-perfect via skytemple-files (bma.to_pil), 27 frame(s), 1 BPA(s) injecté(s) (d01p11b5), collision BMA d'origine. Source: pret/pmd-sky files/MAP_BG.",
+  "Comment": "PMD Sky (NDS) MAP_BG d01p11b/d01p11b/d01p11b -> d01p11b. Rendered pixel-perfect via skytemple-files (bma.to_pil), 27 frame(s), 1 BPA(s) injecté(s) (d01p11b5). Collision BMA d'origine. Source: pret/pmd-sky files/MAP_BG.",
   "obstacles": [
    [
     {
