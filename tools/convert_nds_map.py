@@ -188,20 +188,40 @@ def make_rsground(name, name_fr, comment, sheet, W, H, collision, per_frame,
 
 
 def build_bpa_slots(bpc_obj, bpa_files):
-    """8 slots (0-3 layer0, 4-7 layer1) : bpc.layers[L].bpas[i] <-> bpa.number_of_tiles."""
+    """Map BPA suffixes 1..8 to exact Chunsoft slots.
+
+    Matching by tile count was ambiguous whenever two BPAs had the same size
+    and silently injected the wrong texture sheet.  Filename suffix is the
+    authoritative slot; tile count is validation only.
+    """
     slots = [None] * 8
-    bpas_obj = []
-    for b in (bpa_files or []):
-        bpas_obj.append(FileType.BPA.deserialize(open(f'{BASE}/{b}.bpa', 'rb').read()))
-    for L in range(min(2, len(bpc_obj.layers))):
-        expected = bpc_obj.layers[L].bpas
-        for i, need in enumerate(expected[:4]):
-            if need > 0:
-                for bpa in bpas_obj:
-                    if bpa.number_of_tiles == need and slots[L*4 + i] is None:
-                        slots[L*4 + i] = bpa
-                        break
-    return slots, bpas_obj
+    loaded = []
+    for name in (bpa_files or []):
+        bpa = FileType.BPA.deserialize(open(f'{BASE}/{name}.bpa', 'rb').read())
+        m = re.search(r'([1-8])$', name)
+        if not m:
+            raise ValueError(f'BPA sans suffixe de slot 1..8: {name}')
+        slot = int(m.group(1)) - 1
+        if slots[slot] is not None:
+            raise ValueError(f'BPA slot dupliqué {slot+1}: {name}')
+        layer, local = divmod(slot, 4)
+        expected = (bpc_obj.layers[layer].bpas[local]
+                    if layer < len(bpc_obj.layers) else 0)
+        if expected == 0:
+            # Orphan/unused BPA present in the archive (not referenced by BPC).
+            # Never inject it merely because its filename shares the prefix.
+            continue
+        if expected != bpa.number_of_tiles:
+            raise ValueError(f'{name}: slot {slot+1} attend {expected} tuiles, '
+                             f'BPA en contient {bpa.number_of_tiles}')
+        slots[slot] = bpa
+        loaded.append(bpa)
+    for layer in range(min(2, len(bpc_obj.layers))):
+        for local, expected in enumerate(bpc_obj.layers[layer].bpas[:4]):
+            if expected and slots[layer*4+local] is None:
+                raise ValueError(f'BPA requis absent: slot {layer*4+local+1}, '
+                                 f'{expected} tuiles')
+    return slots, loaded
 
 
 def analyze_invalid_refs(errtext, bpc_obj, bpas_obj, bpa_files):
